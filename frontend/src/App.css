@@ -1,0 +1,22 @@
+/* @import '~antd/dist/antd.css'; */
+
+.MenuNav div{
+  display: flex;
+  background-color: orange;
+  height: 40px;
+}
+
+.MenuNav li{
+  color: black;
+  display: inline;
+  text-decoration: none;
+	list-style: none;
+	border: 5px solid orange;
+  background-color: orange;
+  
+
+}
+
+.MenuNav a:hover{
+  background-color: red;
+}
