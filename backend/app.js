@@ -5,6 +5,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require("cors");
 
+const mongoose = require('mongoose');
+const mongoDB = 'mongodb+srv://root:jmvjII4YHyVpFzZa@cluster0-tkywk.mongodb.net/root?retryWrites=true&w=majority';
+mongoose.connect(mongoDB);
+mongoose.Promise = global.Promise;
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB 连接错误：'));
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testAPIRouter = require("./routes/testAPI");
