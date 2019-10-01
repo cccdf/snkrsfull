@@ -1,5 +1,5 @@
 export default async function getNikeApi(){
-    let response = await fetch('https://my-json-server.typicode.com/cccdf/Mysnkrs-react-app/posts');
+    let response = await fetch('http://localhost:9000/nike');
     let results = await response.json();
     return results;
 

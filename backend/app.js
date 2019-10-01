@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB 连接错误：'));
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var testAPIRouter = require("./routes/testAPI");
+var nikeInfoRouter = require("./routes/getNikeInfo");
 var app = express();
 
 // view engine setup
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use("/testAPI", testAPIRouter);
+app.use("/nike", nikeInfoRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
