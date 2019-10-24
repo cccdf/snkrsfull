@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Total architecture
+
+1. Python scrapy crawler collect data from official website. Save as json file.
+2. import data to the mongodb atlas
+3. use nodejs express to connect mongodb atlas, write model, view, routes to generate an json api.
+4. Build front end through react. Get data through json api provided by nodejs express and ajax.
+
+## problems
+
+### Database and express
+
+1. build data model properly
+2. connect database and express. Be careful about arguments, especially when copying command from mongodb. Remember to change the database name.
+
+### Front-end(React)
+
+1. Router and switch can be placed in different file(render properly)
+
 ## Available Scripts
 
 In the project directory, you can run:

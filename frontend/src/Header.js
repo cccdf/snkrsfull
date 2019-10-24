@@ -76,12 +76,6 @@ export default function Header() {
             </Nav>
           </Container>
         </Navbar>
-        <Switch>
-          <Route path="/" exact={true} />
-          <Route path="/news/">
-            <NewsPage />
-          </Route>
-        </Switch>
       </Router>
     </header>
   );
