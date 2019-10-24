@@ -60,18 +60,22 @@ export default function Header() {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink tag={Link} to="/news/" activeClassName="active">
-                  NEWS
+                <NavLink href="/news/">NEWS</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/login/" activeClassName="active">
+                  LOGIN
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>LOGIN</NavLink>
+                <NavLink href="/signup/" activeClassName="active">
+                  SIGN UP
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>SIGN UP</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink>ABOUT</NavLink>
+                <NavLink href="/about/" activeClassName="active">
+                  ABOUT
+                </NavLink>
               </NavItem>
             </Nav>
           </Container>

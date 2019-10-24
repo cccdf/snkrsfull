@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { Row, Col } from "react-bootstrap";
 
-export default class NewsPage extends React.Component {
+export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,8 +9,7 @@ export default class NewsPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="row mb-3"></div>
-        <h1>Today's news</h1>
+        <h1>SignupPage</h1>
       </div>
     );
   }
