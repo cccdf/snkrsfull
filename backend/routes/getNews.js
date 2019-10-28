@@ -1,9 +1,9 @@
 var express = require("express");
 var router = express.Router();
-var nike = require("../models/nike");
+var news = require("../models/news");
 
 router.get("/", function(req, res, next) {
-  nike.find({}, (err, docs) => {
+  news.find({}, (err, docs) => {
     // if (err) return res.json({ success: false, error: err });
     // console.log('Found Users :', data);
     // res.json(data.length);
