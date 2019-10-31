@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-
 import { Link } from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
 export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
@@ -47,56 +47,77 @@ export default class SignupPage extends React.Component {
   renderForm = () => {
     return (
       <form onSubmit={this.handleSubmit} className="FormFields">
-        <FormGroup>
-          <Label for="exampleEmail">Full Name</Label>
-          <Input
-            type="text"
-            name="name"
-            id="Email"
-            value={this.state.name}
-            placeholder="enter name"
-            onChange={this.handleChange}
-          />
-        </FormGroup>
-        <FormGroup controlId="confirmationCode" bsSize="small">
-          <Label for="exampleEmail">Email</Label>
-          <Input
-            type="email"
-            name="email"
-            id="Email"
-            value={this.state.email}
-            placeholder="enter email address"
-            onChange={this.handleChange}
-          />
-        </FormGroup>
-        <FormGroup>
-          <Label for="password">Password</Label>
-          <Input
-            type="password"
-            name="password"
-            value={this.state.password}
-            id="Password"
-            placeholder="enter password"
-            onChange={this.handleChange}
-          />
-        </FormGroup>
-
-        <FormGroup>
-          <Label for="password">Confirm Password</Label>
-          <Input
-            type="password"
-            name="confirmPassword"
-            value={this.state.confirmPassword}
-            id="confirmPassword"
-            placeholder="confirm password"
-            onChange={this.handleChange}
-          />
-        </FormGroup>
-
-        <Button disabled={!this.validateForm()}>Submit</Button>
-        <Link to="/login" className="FormField__Link">
-          I'm already member
-        </Link>
+        <Row>
+          <Col md={{ span: 6, offset: 3 }}>
+            <FormGroup>
+              <Label for="exampleEmail">Full Name</Label>
+              <Input
+                type="text"
+                name="name"
+                id="Email"
+                value={this.state.name}
+                placeholder="enter name"
+                onChange={this.handleChange}
+                // style={{ height: 5 }}
+              />
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={{ span: 6, offset: 3 }}>
+            <FormGroup>
+              <Label for="exampleEmail">Email</Label>
+              <Input
+                type="email"
+                name="email"
+                id="Email"
+                value={this.state.email}
+                placeholder="enter email address"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={{ span: 6, offset: 3 }}>
+            <FormGroup>
+              <Label for="password">Password</Label>
+              <Input
+                type="password"
+                name="password"
+                value={this.state.password}
+                id="Password"
+                placeholder="enter password"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={{ span: 6, offset: 3 }}>
+            <FormGroup>
+              <Label for="password">Confirm Password</Label>
+              <Input
+                type="password"
+                name="confirmPassword"
+                value={this.state.confirmPassword}
+                id="confirmPassword"
+                placeholder="confirm password"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={{ span: 6, offset: 3 }}>
+            <Button disabled={!this.validateForm()}>Submit</Button>
+          </Col>
+          <Col>
+            <Link to="/login" className="FormField__Link">
+              I'm already member
+            </Link>
+          </Col>
+        </Row>
       </form>
     );
   };

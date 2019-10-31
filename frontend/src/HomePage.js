@@ -19,7 +19,7 @@ export default class HomePage extends React.Component {
           noGutters
           className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
         >
-          <Col offset="100">
+          <Col md="auto">
             <CarouselSnkrs></CarouselSnkrs>
           </Col>
         </Row>

@@ -9,7 +9,7 @@ import NewsPage from "./NewsPage";
 import LoginPage from "./LoginPage";
 import SignupPage from "./SignupPage";
 import AboutPage from "./AboutPage";
-import HomePage from "./HomePage.js";
+import HomePage from "./HomePage";
 import PageNotFound from "./PageNotFound";
 
 export default class App extends React.Component {

@@ -1,8 +1,10 @@
-# -- coding: utf-8 --
 import json
 import twint
 import pymongo
 import datetime
+
+with open("sneakernew.json", 'w') as f:
+    f.truncate()
 
 today = datetime.date.today()
 day = today - datetime.timedelta(days=1)
@@ -10,44 +12,52 @@ print(day)
 c = twint.Config()
 c.Username = "SneakerNews"
 c.Since = str(day)
+c.Store_json = True
 c.Output = "sneakernew.json"
 
 twint.run.Search(c)
 
-with open("sneaker.json", 'r') as f:
-    news = json.loads(f.read())
+news = []
+
+with open("sneakernew.json", 'r') as f:
+    for line in f:
+        news.append(json.loads(line))
+
+for i in news:
+    tw = i['tweet']
+    print(tw[:-53])
+    i['tweet'] = tw[:-53]
+
 
 newsjson = json.dumps(news, indent=4, separators=(',', ':'))
-ff = open("perfectData.json", 'w')
-ff.write(newsjson)
-ff.close()
 
 
-client = pymongo.MongoClient("mongodb+srv://root:jmvjII4YHyVpFzZa@cluster0-tkywk.mongodb.net/test?retryWrites=true&w=majority")
+with open("sneaker.json", 'w', encoding='utf-8') as f:
+    f.write(newsjson)
+
+
+# newsjson = json.dumps(news, indent=4, separators=(',', ':'))
+# ff = open("perfectData.json", 'w')
+# ff.write(newsjson)
+# ff.close()
+
+# newsjson = json.dumps(news, indent=4, separators=(',', ':'))
+# print(type(newsjson))
+# ff = open("perfectData.json", 'w')
+# ff.write(newsjson)
+# ff.close()
+
+
+client = pymongo.MongoClient(
+    "mongodb+srv://root:jmvjII4YHyVpFzZa@cluster0-tkywk.mongodb.net/test?retryWrites=true&w=majority")
 db = client.root
 collection = db.news
-with open('perfectData.json') as f:
+with open('sneaker.json') as f:
     file_data = json.load(f)
     # file_data = json.dumps(data)
 print(type(file_data))
-collection.insert_many(file_data)  
+x = collection.delete_many({})
+print(x.deleted_count, "个文档已删除")
+y = collection.insert_many(file_data)
+print(len(y.inserted_ids), "doucuments inserted")
 client.close()
-
-
-# newList = []
-
-# with open("sneaker.json", 'r') as f:
-#     news = json.loads(f.read())
-#     for new in news:
-#         # tmp.append(new['date'])
-#         tmp = new['date'] + ' ' +  new['time']
-#         # tmp.append(new['time'])
-#         # tmp.append(new['tweet']) 
-#         # tmp.append(new['photos'])
-#         newList.append(tmp)
-
-#     json_str = json.dumps(newList,ensure_ascii=False)
-#     print(json_str)
-#     ff = open("perfectData.json", 'w')
-#     ff.write(json_str)
-#     ff.close()

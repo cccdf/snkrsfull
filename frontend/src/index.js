@@ -6,6 +6,7 @@ import NewsPage from "./NewsPage";
 import NikeSnkrs from "./NikeSnkrs";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import "./SignupPage.scss";
 // import 'antd/dist/antd.css';
 
 ReactDOM.render(<App />, document.getElementById("root"));
