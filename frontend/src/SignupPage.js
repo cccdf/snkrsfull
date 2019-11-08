@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from "react";
 
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 
-const API = "http://localhost:9000";
+const API = "https://snkr-news-api.herokuapp.com";
 
 export default class SignupPage extends React.Component {
   constructor(props) {
@@ -44,6 +44,7 @@ export default class SignupPage extends React.Component {
         password: this.state.password
       })
     });
+    this.setState({ redirectToPostsPage: true });
     // const { email, password, confirmPassword, name, hasAgreed } = this.state;
     // fetch("http://localhost:4000/api/users/register", {
     //   method: "POST",
@@ -144,6 +145,9 @@ export default class SignupPage extends React.Component {
   };
 
   render() {
+    if (this.state.redirectToPostsPage) {
+      return <Redirect to="/" />;
+    }
     return (
       <div className="SignUp">
         {this.renderForm()}

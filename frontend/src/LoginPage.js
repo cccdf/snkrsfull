@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Row, Col } from "react-bootstrap";
 
-const API = "http://localhost:9000";
+const API = "https://snkr-news-api.herokuapp.com";
 
 export default class LoginPage extends React.Component {
   constructor(props) {
