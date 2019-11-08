@@ -1,6 +1,7 @@
 var express = require("express");
 var Users = require("../models/users");
 var router = express.Router();
+const nodeMailer = require("nodemailer");
 
 /* GET users listing. */
 router.get("/", function(req, res, next) {
@@ -32,6 +33,7 @@ router.post("/login", (req, res) => {
 });
 
 router.post("/register", (request, response) => {
+  //neeed validation
   const email = request.body.email;
   const name = request.body.name;
   const password = request.body.password;
@@ -40,7 +42,32 @@ router.post("/register", (request, response) => {
     if (err) return handleError(err);
     // saved!
   });
-  response.send(request.body.email + request.body.name + request.body.password);
+  let transporter = nodeMailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: {
+      // should be replaced with real sender's account
+      user: "snkrparadise1007@gmail.com",
+      pass: "Snkr1007"
+    }
+  });
+  let mailOptions = {
+    // should be replaced with real recipient's account
+    to: request.body.email,
+    subject: "Snkr registration",
+    text: "Register successfully!"
+  };
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return console.log(error);
+    }
+    console.log("Message %s sent: %s", info.messageId, info.response);
+  });
+  response.writeHead(301, { Location: "index.html" });
+  response.end();
+
+  // response.send(request.body.email + request.body.name + request.body.password);
 
   // userInfo.save();
   // const post = request.body;
