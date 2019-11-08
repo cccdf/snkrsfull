@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Row, Col } from "react-bootstrap";
 
+const API = "http://localhost:9000";
+
 export default class LoginPage extends React.Component {
   constructor(props) {
     super(props);
@@ -23,9 +25,30 @@ export default class LoginPage extends React.Component {
     });
   }
 
-  handleSubmit(e) {
+  async handleSubmit(e) {
     e.preventDefault();
-
+    await fetch(`${API}/users/login`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        email: this.state.email,
+        password: this.state.password
+      })
+    }).then(res => {
+      console.log(res);
+      if (res.status === 200) {
+        alert("Login successfully");
+        console.log("Login successfully");
+      } else if (res.status === 204) {
+        alert("Password doesn't match");
+        console.log("Password doesn't match");
+      } else {
+        alert("Username does not exist");
+        console.log("Email is not registered");
+      }
+    });
     console.log("The form was submitted with the following data:");
     console.log(this.state);
   }
