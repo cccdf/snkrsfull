@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 
 const API = "https://snkr-news-api.herokuapp.com";
@@ -51,6 +52,7 @@ export default class LoginPage extends React.Component {
     });
     console.log("The form was submitted with the following data:");
     console.log(this.state);
+    this.setState({ redirectToPostsPage: true });
   }
   renderForm = () => {
     return (
@@ -96,6 +98,9 @@ export default class LoginPage extends React.Component {
     );
   };
   render() {
+    if (this.state.redirectToPostsPage) {
+      return <Redirect to="/" />;
+    }
     return <div>{this.renderForm()}</div>;
   }
 }
