@@ -15,14 +15,20 @@ export default class HomePage extends React.Component {
   render() {
     return (
       <Container className="px-0">
-        <Row
+        {/* <Row
           noGutters
           className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
-        >
-          <Col md="auto">
+        > */}
+        <div className="row">
+          <div className="column">
             <CarouselSnkrs></CarouselSnkrs>
-          </Col>
-        </Row>
+          </div>
+          {/* <Col xl={{ span: 6, offset: 6 }}> */}
+
+          {/* </Col> */}
+        </div>
+
+        {/* </Row> */}
         <Row
           noGutters
           className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
@@ -35,6 +41,11 @@ export default class HomePage extends React.Component {
           >
             <NikeSnkrs></NikeSnkrs>
           </Col>
+        </Row>
+        <Row
+          noGutters
+          className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
+        >
           <Col
             xs={{ order: 3 }}
             md={{ size: 4, order: 1 }}

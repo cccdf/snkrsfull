@@ -61,3 +61,4 @@ print(x.deleted_count, "个文档已删除")
 y = collection.insert_many(file_data)
 print(len(y.inserted_ids), "doucuments inserted")
 client.close()
+

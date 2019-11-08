@@ -3,6 +3,9 @@ import React, { Fragment, useState } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
+
+const API = "http://localhost:9000";
+
 export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
@@ -28,12 +31,30 @@ export default class SignupPage extends React.Component {
       [name]: value
     });
   }
-  handleSubmit(e) {
+  handleSubmit = async e => {
     e.preventDefault();
-
+    await fetch(`${API}/users/register`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        email: this.state.email,
+        name: this.state.name,
+        password: this.state.password
+      })
+    });
+    // const { email, password, confirmPassword, name, hasAgreed } = this.state;
+    // fetch("http://localhost:4000/api/users/register", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-type": "application/json"
+    //   },
+    //   body: JSON.stringify(this.state)
+    // });
     console.log("The form was submitted with the following data:");
     console.log(this.state);
-  }
+  };
 
   validateForm() {
     return (

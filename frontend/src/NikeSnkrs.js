@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import { ListGroup, ListGroupItem, Collapse, Button } from "reactstrap";
 
 async function getNikeApi() {
-  let response = await fetch("http://localhost:9000/nike");
+  let response = await fetch("https://snkr-news-api.herokuapp.com/nike");
   let results = await response.json();
   return results;
 }

@@ -3,7 +3,7 @@ import { Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
 // import getNewsApi from "./getNewsApi";
 
 async function getNewsApi() {
-  let response = await fetch("http://localhost:9000/news");
+  let response = await fetch("https://snkr-news-api.herokuapp.com/news");
   let results = await response.json();
   return results;
 }
@@ -14,11 +14,12 @@ export default class NewsPage extends React.Component {
     this.state = {
       results: [],
       tweets: [],
-      loading: false
+      loading: true
     };
   }
 
   async componentDidMount() {
+    // this.setState({ loading: true });
     let response = await getNewsApi();
     let tweets = [];
     response.map(result => {
@@ -30,22 +31,21 @@ export default class NewsPage extends React.Component {
   render() {
     return (
       <Fragment>
-        <ListGroup>
-          {/* {this.state.tweets.map(tweet => {
-            <ListGroupItem>
-              <p>{tweet.id}</p>
-            </ListGroupItem>;
-          })} */}
-          {this.state.results.map(result => {
-            return (
-              <ListGroupItem>
-                <p>{result.tweet}</p>
+        {this.loading ? (
+          <p>Loading...</p>
+        ) : (
+          <ListGroup>
+            {this.state.results.map(result => {
+              return (
+                <ListGroupItem>
+                  <p>{result.tweet}</p>
 
-                <img src={result.photos} width="200"></img>
-              </ListGroupItem>
-            );
-          })}
-        </ListGroup>
+                  <img src={result.photos} width="200"></img>
+                </ListGroupItem>
+              );
+            })}
+          </ListGroup>
+        )}
       </Fragment>
     );
   }

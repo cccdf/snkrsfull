@@ -13,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. build data model properly
 2. connect database and express. Be careful about arguments, especially when copying command from mongodb. Remember to change the database name.
+3. after build before surge, create a 200.html(content same as index.html) in build
+4. db privacy
 
 ### Front-end(React)
 
