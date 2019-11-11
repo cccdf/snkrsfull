@@ -58,7 +58,7 @@ export default class LoginPage extends React.Component {
     return (
       <form onSubmit={this.handleSubmit} className="FormFields">
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup controlId="confirmationCode" bsSize="small">
               <Label for="exampleEmail">Email</Label>
               <Input
@@ -74,7 +74,7 @@ export default class LoginPage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="password">Password</Label>
               <Input
@@ -90,7 +90,7 @@ export default class LoginPage extends React.Component {
         </Row>
 
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <Button>Submit</Button>
           </Col>
         </Row>

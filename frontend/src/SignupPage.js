@@ -70,7 +70,7 @@ export default class SignupPage extends React.Component {
     return (
       <form onSubmit={this.handleSubmit} className="FormFields">
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="exampleEmail">Full Name</Label>
               <Input
@@ -86,7 +86,7 @@ export default class SignupPage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="exampleEmail">Email</Label>
               <Input
@@ -101,7 +101,7 @@ export default class SignupPage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="password">Password</Label>
               <Input
@@ -116,7 +116,7 @@ export default class SignupPage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="password">Confirm Password</Label>
               <Input
@@ -131,12 +131,12 @@ export default class SignupPage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 6, offset: 3 }}>
-            <Button disabled={!this.validateForm()}>Submit</Button>
-          </Col>
-          <Col>
+          <Col md={{ span: 6, offset: 0 }}>
+            <Button disabled={!this.validateForm()} style={{ marginRight: 20 }}>
+              Submit
+            </Button>
             <Link to="/login" className="FormField__Link">
-              I'm already member
+              I'm already a member
             </Link>
           </Col>
         </Row>

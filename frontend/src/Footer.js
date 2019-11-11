@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-export default function Footer(){
-    return(
-        <footer>
-            <p>Need data</p>
-        </footer>
-    );
+export default function Footer() {
+  return (
+    <footer>
+      <p>Footer</p>
+    </footer>
+  );
 }

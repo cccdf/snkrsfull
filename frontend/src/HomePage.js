@@ -5,63 +5,117 @@ import Footer from "./Footer";
 import NikeSnkrs from "./NikeSnkrs";
 import AdidasSnkrs from "./AdidasSnkrs";
 import CarouselSnkrs from "./CarouselSnkrs";
+import "./HomePage.css";
+
+async function getNikeApi() {
+  let response = await fetch("https://snkr-news-api.herokuapp.com/nike");
+  let results = await response.json();
+  return results;
+}
 
 export default class HomePage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      results: []
+    };
+  }
+
+  async componentDidMount() {
+    let response = await getNikeApi();
+
+    this.setState({
+      results: response,
+      loading: false
+    });
   }
 
   render() {
     return (
-      <Container className="px-0">
-        {/* <Row
-          noGutters
-          className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
-        > */}
+      <div>
         <div className="row">
-          <div className="column">
-            <CarouselSnkrs></CarouselSnkrs>
+          <div
+            className="column"
+            style={{ width: "70%", justifyContent: "left" }}
+          >
+            <h3>Popular brand</h3>
           </div>
-          {/* <Col xl={{ span: 6, offset: 6 }}> */}
-
-          {/* </Col> */}
+          <div className="column" style={{ float: "right" }}>
+            <a href="#">See All</a>
+          </div>
         </div>
-
-        {/* </Row> */}
-        <Row
-          noGutters
-          className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
-        >
-          <Col
-            xs={{ order: 2 }}
-            md={{ size: 4, order: 1 }}
-            tag="aside"
-            className="pb-5 mb-5 pb-md-0 mb-md-0 mx-auto mx-md-0"
+        <div className="row" style={{ height: 200 }}>
+          <div className="column" style={{ backgroundColor: "#aaa" }}>
+            <p>Air Jordan</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#bbb" }}>
+            <p>Nike</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#ccc" }}>
+            <p>Yeezy</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#ddd" }}>
+            <p>Adidas</p>
+          </div>
+        </div>
+        <div className="row">
+          <div
+            className="column"
+            style={{ width: "70%", justifyContent: "left" }}
           >
-            <NikeSnkrs></NikeSnkrs>
-          </Col>
-        </Row>
-        <Row
-          noGutters
-          className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
-        >
-          <Col
-            xs={{ order: 3 }}
-            md={{ size: 4, order: 1 }}
-            tag="aside"
-            className="pb-5 mb-5 pb-md-0 mb-md-0 mx-auto mx-md-0"
+            <h3>Coming Soon</h3>
+          </div>
+          <div className="column" style={{ float: "right" }}>
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div className="row" style={{ height: 200 }}>
+          <div className="column" style={{ backgroundColor: "#aaa" }}>
+            <p>Air Jordan</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#bbb" }}>
+            <p>Nike</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#ccc" }}>
+            <p>Yeezy</p>
+          </div>
+          <div className="column" style={{ backgroundColor: "#ddd" }}>
+            <p>Adidas</p>
+          </div>
+        </div>
+        <div className="row">
+          <div
+            className="column"
+            style={{ width: "70%", justifyContent: "left" }}
           >
-            <AdidasSnkrs></AdidasSnkrs>
-          </Col>
-        </Row>
-        <Row
-          noGutters
-          className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative"
-        >
+            <h3>Recently Released</h3>
+          </div>
+          <div className="column" style={{ float: "right" }}>
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div className="row" style={{ height: 200 }}>
+          {this.state.results.map(result => {
+            return (
+              <div className="infocard" style={{ backgroundColor: "#aaa" }}>
+                <p>Image</p>
+                <div className="title">
+                  <a href={result.product_link}>{result.title}</a>
+                </div>
+                <div className="price">
+                  <p>Price:{result.price}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="row">
+          <CarouselSnkrs></CarouselSnkrs>
+        </div>
+        <div className="row" style={{ backgroundColor: "#ddd", height: 100 }}>
           <Footer></Footer>
-        </Row>
-      </Container>
+        </div>
+      </div>
     );
   }
 }
