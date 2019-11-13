@@ -26,19 +26,29 @@
   position: relative;
   float: left;
   width: 20%;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   justify-content: center;
 }
 
 .title {
   position: absolute;
-  bottom: 30%;
-  left: 5%;
+  bottom: 15%;
+  left: 15%;
 }
 
 .price {
   position: absolute;
   bottom: 0%;
-  left: 5%;
+  left: 15%;
+}
+
+.shoesimage {
+  width: 200;
+}
+
+.time {
+  position: absolute;
+  top: 0%;
+  left: 15%;
 }
