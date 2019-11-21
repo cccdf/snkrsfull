@@ -1,6 +1,7 @@
 import React from "react";
 import Messages from "./Messages";
 import Input from "./Input";
+import "./ChatRoom.css";
 
 function randomName() {
   const adjectives = [
@@ -189,7 +190,7 @@ export default class ChatRoom extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Chatscreen">
         <Messages
           messages={this.state.messages}
           currentMember={this.state.member}

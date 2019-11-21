@@ -17,7 +17,7 @@ export default class Messages extends React.Component {
   }
   render() {
     return (
-      <div className="Input">
+      <div className="Chatroom-input">
         <form onSubmit={e => this.onSubmit(e)}>
           <input
             onChange={e => this.onChange(e)}
