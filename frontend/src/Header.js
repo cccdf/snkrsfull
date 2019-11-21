@@ -63,6 +63,9 @@ export default function Header() {
                 <NavLink href="/news/">NEWS</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="/chatroom/">CHATROOM</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/login/" activeClassName="active">
                   LOGIN
                 </NavLink>

@@ -50,40 +50,6 @@ export default class HomePage extends React.Component {
             className="column"
             style={{ width: "70%", justifyContent: "left" }}
           >
-            <h3>Popular brand</h3>
-          </div>
-          <div className="column" style={{ float: "right" }}>
-            <a href="#">See All</a>
-          </div>
-        </div>
-        <div className="row" style={{ height: 260 }}>
-          <div className="column" style={{ backgroundColor: "white" }}>
-            {/* <p>Air Jordan</p> */}
-            <a href="#">
-              <img src={aj}></img>
-            </a>
-          </div>
-          <div className="column">
-            <a href="/">
-              <img src={nike}></img>
-            </a>
-          </div>
-          <div className="column">
-            <a href="/">
-              <img src={yeezy}></img>
-            </a>
-          </div>
-          <div className="column">
-            <a href="/">
-              <img src={adidas}></img>
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="column"
-            style={{ width: "70%", justifyContent: "left" }}
-          >
             <h3>Coming Soon</h3>
           </div>
           <div className="column" style={{ float: "right" }}>
@@ -109,22 +75,8 @@ export default class HomePage extends React.Component {
               </div>
             );
           })}
-          {/* <div className="column" style={{ backgroundColor: "#aaa" }}>
-            <img
-              src="https://c.static-nike.com/a/images/w_960,c_limit,f_auto/o1tyt9xm8cffvz1i2xwk/air-jordan-i-low-react-fearless-ones-ghetto-gastro-release-date.jpg"
-              style={{ height: 240, width: 240 }}
-            ></img>
-          </div>
-          <div className="column" style={{ backgroundColor: "#bbb" }}>
-            <p>Nike</p>
-          </div>
-          <div className="column" style={{ backgroundColor: "#ccc" }}>
-            <p>Yeezy</p>
-          </div>
-          <div className="column" style={{ backgroundColor: "#ddd" }}>
-            <p>Adidas</p>
-          </div> */}
         </div>
+
         <div className="row">
           <div
             className="column"
@@ -157,9 +109,46 @@ export default class HomePage extends React.Component {
           })}
         </div>
         <div className="row">
+          <div
+            className="column"
+            style={{ width: "70%", justifyContent: "left" }}
+          >
+            <h3>Popular brand</h3>
+          </div>
+          <div className="column" style={{ float: "right" }}>
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div className="row" style={{ height: 260 }}>
+          <div className="column" style={{ backgroundColor: "white" }}>
+            {/* <p>Air Jordan</p> */}
+            <a href="#">
+              <img src={aj}></img>
+            </a>
+          </div>
+          <div className="column">
+            <a href="/">
+              <img src={nike}></img>
+            </a>
+          </div>
+          <div className="column">
+            <a href="/">
+              <img src={yeezy}></img>
+            </a>
+          </div>
+          <div className="column">
+            <a href="/">
+              <img src={adidas}></img>
+            </a>
+          </div>
+        </div>
+        <div className="row">
           <CarouselSnkrs></CarouselSnkrs>
         </div>
-        <div className="row" style={{ backgroundColor: "#ddd", height: 100 }}>
+        <div
+          className="site-footer"
+          style={{ backgroundColor: "#ddd", height: 200 }}
+        >
           <Footer></Footer>
         </div>
       </div>

@@ -52,3 +52,10 @@
   top: 0%;
   left: 15%;
 }
+
+.site-footer {
+  background-color: black;
+  height: 200;
+
+  position: relative;
+}

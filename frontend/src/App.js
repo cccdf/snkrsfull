@@ -7,6 +7,7 @@ import { Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import NewsPage from "./NewsPage";
 import LoginPage from "./LoginPage";
+import ChatRoom from "./ChatRoom";
 import SignupPage from "./SignupPage";
 import AboutPage from "./AboutPage";
 import HomePage from "./HomePage";
@@ -31,6 +32,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/news/" exact={true}>
                 <NewsPage />
+              </Route>
+              <Route path="/chatroom/" exact={true}>
+                <ChatRoom />
               </Route>
               <Route path="/login/" exact={true}>
                 <LoginPage />
