@@ -6,6 +6,17 @@ export default class Messages extends React.Component {
     this.state = {};
   }
 
+  scrollToBottom = () => {
+    this.messagesEnd.scrollIntoView({ behavior: "smooth" });
+  };
+
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
   renderMessage(message) {
     const { member, text } = message;
     const { currentMember } = this.props;
@@ -30,9 +41,17 @@ export default class Messages extends React.Component {
   render() {
     const { messages } = this.props;
     return (
-      <ul className="Messages-list">
-        {messages.map(m => this.renderMessage(m))}
-      </ul>
+      <div>
+        <ul className="Messages-list">
+          {messages.map(m => this.renderMessage(m))}
+        </ul>
+        <div
+          style={{ float: "left", clear: "both" }}
+          ref={el => {
+            this.messagesEnd = el;
+          }}
+        />
+      </div>
     );
   }
 }

@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import { Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Spinner } from "reactstrap";
+import "./News.css";
 // import getNewsApi from "./getNewsApi";
 
 async function getNewsApi() {
@@ -19,7 +21,7 @@ export default class NewsPage extends React.Component {
   }
 
   async componentDidMount() {
-    // this.setState({ loading: true });
+    this.setState({ loading: true });
     let response = await getNewsApi();
     let tweets = [];
     response.map(result => {
@@ -31,8 +33,10 @@ export default class NewsPage extends React.Component {
   render() {
     return (
       <Fragment>
-        {this.loading ? (
-          <p>Loading...</p>
+        {this.state.loading ? (
+          <div className="loading">
+            <Spinner color="primary" />
+          </div>
         ) : (
           <ListGroup>
             {this.state.results.map(result => {
