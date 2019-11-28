@@ -153,7 +153,8 @@ export default class ChatRoom extends React.Component {
       member: {
         username: randomName(),
         color: randomColor()
-      }
+      },
+      members: []
     };
     this.drone = new window.Scaledrone("5VfMjJQ1wXpIqYcK", {
       data: this.state.member

@@ -3,6 +3,7 @@ import React, { Fragment, useState } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Link, Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
+import "./SignupPage.css";
 
 const API = "https://snkr-news-api.herokuapp.com";
 
@@ -66,10 +67,28 @@ export default class SignupPage extends React.Component {
       this.state.password === this.state.confirmPassword
     );
   }
+
+  validateName() {
+    return this.state.name.length > 0;
+  }
+
+  validateEmail() {
+    return this.state.email.length > 0;
+  }
+  validatePwd() {
+    return this.state.password.length > 0;
+  }
+  validateConfirmpwd() {
+    return (
+      this.state.confirmPassword.length > 0 &&
+      this.state.password === this.state.confirmPassword
+    );
+  }
+
   renderForm = () => {
     return (
       <form onSubmit={this.handleSubmit} className="FormFields">
-        <Row>
+        <Row style={{ marginBottom: 0, paddingBottom: 0 }}>
           <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
               <Label for="exampleEmail">Full Name</Label>
@@ -85,6 +104,12 @@ export default class SignupPage extends React.Component {
             </FormGroup>
           </Col>
         </Row>
+        {this.validateName() ? null : (
+          <div className="error-message">
+            <span>Name cannot be empty</span>
+          </div>
+        )}
+
         <Row>
           <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
@@ -100,6 +125,11 @@ export default class SignupPage extends React.Component {
             </FormGroup>
           </Col>
         </Row>
+        {this.validateEmail() ? null : (
+          <div className="error-message">
+            <span>Email cannot be empty</span>
+          </div>
+        )}
         <Row>
           <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
@@ -115,6 +145,11 @@ export default class SignupPage extends React.Component {
             </FormGroup>
           </Col>
         </Row>
+        {this.validatePwd() ? null : (
+          <div className="error-message">
+            <span>Password cannot be empty</span>
+          </div>
+        )}
         <Row>
           <Col md={{ span: 6, offset: 0 }}>
             <FormGroup>
@@ -130,6 +165,11 @@ export default class SignupPage extends React.Component {
             </FormGroup>
           </Col>
         </Row>
+        {this.validateConfirmpwd() ? null : (
+          <div className="error-message">
+            <span>Confirm password and password should be same</span>
+          </div>
+        )}
         <Row>
           <Col md={{ span: 6, offset: 0 }}>
             <Button disabled={!this.validateForm()} style={{ marginRight: 20 }}>

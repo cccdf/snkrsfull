@@ -9,6 +9,18 @@
     height: 10;
   }
 } */
+/* .FormFields {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 80% 20%;
+} */
+
+.error-message {
+  margin-top: 0;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
 body {
   color: black;
 }
