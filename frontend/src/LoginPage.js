@@ -38,6 +38,7 @@ export default class LoginPage extends React.Component {
         console.log(res.data.token);
         localStorage.setItem("cool-jwt", res.data.token);
       });
+    this.setState({ redirectToPostsPage: true });
     // await fetch(`${API}/users/login`, {
     //   method: "POST",
     //   headers: {

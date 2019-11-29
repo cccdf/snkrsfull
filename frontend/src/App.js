@@ -9,7 +9,7 @@ import NewsPage from "./NewsPage";
 import LoginPage from "./LoginPage";
 import ChatRoom from "./ChatRoom";
 import SignupPage from "./SignupPage";
-import AboutPage from "./AboutPage";
+import ProfilePage from "./ProfilePage";
 import HomePage from "./HomePage";
 import PageNotFound from "./PageNotFound";
 
@@ -42,8 +42,8 @@ export default class App extends React.Component {
               <Route path="/signup/" exact={true}>
                 <SignupPage />
               </Route>
-              <Route path="/about/" exact={true}>
-                <AboutPage />
+              <Route path="/profile/" exact={true}>
+                <ProfilePage />
               </Route>
               <Route component={PageNotFound}></Route>
             </Switch>
