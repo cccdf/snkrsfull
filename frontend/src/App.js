@@ -12,6 +12,7 @@ import SignupPage from "./SignupPage";
 import ProfilePage from "./ProfilePage";
 import HomePage from "./HomePage";
 import PageNotFound from "./PageNotFound";
+import Resetpwd from "./Resetpwd";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -44,6 +45,9 @@ export default class App extends React.Component {
               </Route>
               <Route path="/profile/" exact={true}>
                 <ProfilePage />
+              </Route>
+              <Route path="/profile/resetpwd" exact={true}>
+                <Resetpwd />
               </Route>
               <Route component={PageNotFound}></Route>
             </Switch>

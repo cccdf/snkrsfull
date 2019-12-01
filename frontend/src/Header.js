@@ -29,10 +29,37 @@ const AVATAR =
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
+    this.localStorageUpdated = this.localStorageUpdated.bind(this);
+    this.state = {
+      status: null
+    };
   }
 
   componentDidMount() {
-    const jwt = getJwt();
+    if (typeof window !== "undefined") {
+      this.setState({
+        status: localStorage.getItem("cool-jwt") ? true : false
+      });
+
+      window.addEventListener("storage", this.localStorageUpdated);
+    }
+  }
+
+  componentWillUnmount() {
+    if (typeof window !== "undefined") {
+      window.removeEventListener("storage", this.localStorageUpdated);
+    }
+  }
+
+  localStorageUpdated() {
+    if (!localStorage.getItem("cool-jwt")) {
+      this.updateState(false);
+    } else if (!this.state.status) {
+      this.updateState(true);
+    }
+  }
+  updateState(value) {
+    this.setState({ status: value });
   }
 
   render() {
@@ -76,11 +103,14 @@ export default class Header extends React.Component {
                   <NavLink href="/chatroom/">CHATROOM</NavLink>
                 </NavItem>
 
-                <NavItem>
-                  <NavLink href="/signup/" activeClassName="active">
-                    SIGN UP
-                  </NavLink>
-                </NavItem>
+                {localStorage.getItem("cool-jwt") ? null : (
+                  <NavItem>
+                    <NavLink href="/signup/" activeClassName="active">
+                      SIGN UP
+                    </NavLink>
+                  </NavItem>
+                )}
+
                 {localStorage.getItem("cool-jwt") ? (
                   <NavItem>
                     <NavLink href="/profile/" activeClassName="active">

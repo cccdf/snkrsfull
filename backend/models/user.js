@@ -25,6 +25,10 @@ const userSchema = mongoose.Schema({
     required: true,
     minLength: 7
   },
+
+  brand: {
+    type: String
+  },
   tokens: [
     {
       token: {
@@ -43,6 +47,14 @@ userSchema.pre("save", async function(next) {
   }
   next();
 });
+
+// userSchema.methods.resetpwd = async function(email, newpassword) {
+//   const password = await bcrypt.hash(newpassword, 8);
+//   const user = await User.findOneAndUpdate({ email }, { password: password });
+//   console.log(user);
+//   const newuser = await User.findOne({ email });
+//   return newuser;
+// };
 
 userSchema.methods.generateAuthToken = async function() {
   // Generate an auth token for the user

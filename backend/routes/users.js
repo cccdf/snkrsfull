@@ -1,6 +1,7 @@
 var express = require("express");
 var Users = require("../models/users");
 var User = require("../models/user");
+var Favbrand = require("../models/favbrands");
 var router = express.Router();
 const nodeMailer = require("nodemailer");
 const auth = require("../middleware/auth");
@@ -44,6 +45,52 @@ router.post("/login", async (req, res) => {
     res.status(400).send(error);
   }
 });
+
+router.post("/favoritebrands", async (req, res) => {
+  try {
+    const userfav = new Favbrand(req.body);
+    console.log(userfav);
+    await userfav.save();
+    res.status(201).send({ userfav });
+  } catch (error) {
+    res.status(400).send(error);
+  }
+});
+
+router.put("/favoritebrands", async (req, res) => {
+  const filter = { email: req.body.email };
+  const update = { brand: req.body.brands };
+  console.log(filter, update);
+  let doc = await Favbrand.findOne(filter);
+  await Favbrand.updateOne(filter, update);
+  doc.brands = req.body.brands;
+  await doc.save();
+  res.status(201).send({ doc });
+  // await Favbrand.findOneAndUpdate(filter, update, { new: true }, (err, doc) => {
+  //   if (err) {
+  //     console.log("wrong");
+  //   } else {
+  //     console.log(doc);
+  //     res.status(201).send({ doc });
+  //   }
+  // });
+});
+
+// router.put("/reset", async (req, res) => {
+//   try {
+//     const { email, password } = req.body;
+//     const user = await User.resetpwd(email, password);
+//     if (!user) {
+//       return res
+//         .status(401)
+//         .send({ error: "Login failed! Check authentication credentials" });
+//     }
+
+//     res.send({ user });
+//   } catch (error) {
+//     res.status(400).send(error);
+//   }
+// });
 
 router.get("/me", auth, async (req, res) => {
   // View logged in user profile

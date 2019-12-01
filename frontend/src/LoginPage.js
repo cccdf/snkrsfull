@@ -3,7 +3,7 @@ import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Redirect } from "react-router-dom";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
-
+//redirect and signup redirect
 const API = "https://snkr-news-api.herokuapp.com";
 
 export default class LoginPage extends React.Component {
