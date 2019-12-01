@@ -46,6 +46,17 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.get("/favoritebrands", async (req, res) => {
+  Favbrand.find({ email: req.body.email }, (err, docs) => {
+    if (!err) {
+      console.log(docs);
+      res.jsonp(docs);
+    } else {
+      throw err;
+    }
+  });
+});
+
 router.post("/favoritebrands", async (req, res) => {
   try {
     const userfav = new Favbrand(req.body);
