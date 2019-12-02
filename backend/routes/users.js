@@ -15,19 +15,41 @@ router.post("/register", async (req, res) => {
     await user.save();
     const token = await user.generateAuthToken();
     console.log(user);
+    // let transporter = nodeMailer.createTransport({
+    //   host: "smtp.gmail.com",
+    //   port: 465,
+    //   secure: true,
+    //   auth: {
+    //     // should be replaced with real sender's account
+    //     user: "snkrparadise1007@gmail.com",
+    //     pass: "Snkr1007"
+    //   }
+    // });
+    // let mailOptions = {
+    //   // should be replaced with real recipient's account
+    //   to: request.body.email,
+    //   subject: "Snkr registration",
+    //   text: "Register successfully!"
+    // };
+    // transporter.sendMail(mailOptions, (error, info) => {
+    //   if (error) {
+    //     return console.log(error);
+    //   }
+    //   console.log("Message %s sent: %s", info.messageId, info.response);
+    // });
     res.status(201).send({ user, token });
   } catch (error) {
     res.status(400).send(error);
   }
 });
 
-router.get("/", function(req, res, next) {
-  res.send("respond with a resource");
-});
+// router.get("/", function(req, res, next) {
+//   res.send("respond with a resource");
+// });
 
-router.get("/cool", function(req, res, next) {
-  res.send("you are so cool");
-});
+// router.get("/cool", function(req, res, next) {
+//   res.send("you are so cool");
+// });
 
 router.post("/login", async (req, res) => {
   //Login a registered user
@@ -50,23 +72,27 @@ router.post("/favoritebrands", async (req, res) => {
   Favbrand.find({ email: req.body.email }, (err, docs) => {
     if (!err) {
       console.log(docs);
-      res.jsonp(docs);
+      if (Object.keys(docs).length !== 0) {
+        res.jsonp(docs);
+      } else {
+        res.status(204);
+      }
     } else {
       throw err;
     }
   });
 });
 
-router.post("/favoritebrands", async (req, res) => {
-  try {
-    const userfav = new Favbrand(req.body);
-    console.log(userfav);
-    await userfav.save();
-    res.status(201).send({ userfav });
-  } catch (error) {
-    res.status(400).send(error);
-  }
-});
+// router.post("/favoritebrands", async (req, res) => {
+//   try {
+//     const userfav = new Favbrand(req.body);
+//     console.log(userfav);
+//     await userfav.save();
+//     res.status(201).send({ userfav });
+//   } catch (error) {
+//     res.status(400).send(error);
+//   }
+// });
 
 router.put("/favoritebrands", async (req, res) => {
   const filter = { email: req.body.email };
@@ -77,14 +103,21 @@ router.put("/favoritebrands", async (req, res) => {
   doc.brands = req.body.brands;
   await doc.save();
   res.status(201).send({ doc });
-  // await Favbrand.findOneAndUpdate(filter, update, { new: true }, (err, doc) => {
-  //   if (err) {
-  //     console.log("wrong");
-  //   } else {
-  //     console.log(doc);
-  //     res.status(201).send({ doc });
-  //   }
-  // });
+});
+
+router.delete("/delete", async (req, res) => {
+  const filter = { email: req.body.email };
+  Favbrand.deleteOne(filter, err => {
+    if (err) {
+      return handleError(err);
+    }
+  });
+  User.deleteOne(filter, err => {
+    if (err) {
+      return handleError(err);
+    }
+  });
+  res.status(200).send("Delete successfully");
 });
 
 // router.put("/reset", async (req, res) => {
@@ -138,28 +171,7 @@ router.get("/me", auth, async (req, res) => {
 //     if (err) return handleError(err);
 //     // saved!
 //   });
-//   let transporter = nodeMailer.createTransport({
-//     host: "smtp.gmail.com",
-//     port: 465,
-//     secure: true,
-//     auth: {
-//       // should be replaced with real sender's account
-//       user: "snkrparadise1007@gmail.com",
-//       pass: "Snkr1007"
-//     }
-//   });
-//   let mailOptions = {
-//     // should be replaced with real recipient's account
-//     to: request.body.email,
-//     subject: "Snkr registration",
-//     text: "Register successfully!"
-//   };
-//   transporter.sendMail(mailOptions, (error, info) => {
-//     if (error) {
-//       return console.log(error);
-//     }
-//     console.log("Message %s sent: %s", info.messageId, info.response);
-//   });
+
 //   response.writeHead(301, { Location: "index.html" });
 //   response.end();
 

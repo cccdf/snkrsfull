@@ -4,9 +4,10 @@ import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Link, Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import "./SignupPage.css";
+import axios from "axios";
 
-const API = "https://snkr-news-api.herokuapp.com";
-
+// const API = "https://snkr-news-api.herokuapp.com";
+const API = "http://localhost:9000/users/register";
 export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
@@ -34,17 +35,30 @@ export default class SignupPage extends React.Component {
   }
   handleSubmit = async e => {
     e.preventDefault();
-    await fetch(`${API}/users/register`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
+    axios
+      .post("http://localhost:9000/users/register", {
         email: this.state.email,
         name: this.state.name,
         password: this.state.password
       })
-    });
+      .then(res => {
+        console.log(res);
+        localStorage.setItem("cool-jwt", res.data.token);
+      });
+    // await fetch(`${API}/users/register`, {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json"
+    //   },
+    //   body: JSON.stringify({
+    //     email: this.state.email,
+    //     name: this.state.name,
+    //     password: this.state.password
+    //   })
+    // }).then(res => {
+    //   console.log(res);
+    //   localStorage.setItem("cool-jwt", res.token);
+    // });
     this.setState({ redirectToPostsPage: true });
     // const { email, password, confirmPassword, name, hasAgreed } = this.state;
     // fetch("http://localhost:4000/api/users/register", {

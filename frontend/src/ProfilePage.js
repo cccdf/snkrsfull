@@ -14,6 +14,7 @@ import {
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
 import FavBrand from "./FavBrand";
+import { Redirect } from "react-router-dom";
 
 async function getUserInfo() {
   return axios
@@ -44,11 +45,13 @@ export default class ProfilePage extends React.Component {
       email: "",
       brands: [],
       send: false,
+      redirect: false,
       loading: true
     };
     this.deleteItem = this.deleteItem.bind(this);
     this.addItem = this.addItem.bind(this);
     this.sendPut = this.sendPut.bind(this);
+    this.deleteAccount = this.deleteAccount.bind(this);
   }
 
   componentDidMount() {
@@ -109,13 +112,31 @@ export default class ProfilePage extends React.Component {
       });
   }
 
+  deleteAccount(e) {
+    e.preventDefault();
+    axios
+      .delete("http://localhost:9000/users/delete", {
+        email: this.state.email
+      })
+      .then(res => {
+        if (res.status === 200) {
+          this.setState({ name: "", email: "", brands: [], redirect: true });
+          localStorage.removeItem("cool-jwt");
+        }
+        console.log(res.status);
+      });
+  }
+
   render() {
+    if (this.state.redirect) {
+      return <Redirect to="/" />;
+    }
     return (
       <div>
         {/* <div classNeme="profile-navs" style={{ width: "15%" }}> */}
         {this.state.send ? (
           <UncontrolledAlert color="info">
-            You have alread updated your favorite brands
+            Update successfully
           </UncontrolledAlert>
         ) : null}
         <Row>
@@ -129,6 +150,7 @@ export default class ProfilePage extends React.Component {
             </NavItem>
           </Nav>
           <hr /> */}
+          <Button onClick={this.deleteAccount}>Delete your account</Button>
         </Row>
         <Row>
           <p>Brands you like:</p>
