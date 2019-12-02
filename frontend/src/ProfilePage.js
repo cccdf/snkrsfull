@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { useState } from "react";
 import {
   Nav,
   NavItem,
@@ -8,7 +8,8 @@ import {
   FormGroup,
   Label,
   Input,
-  FormText
+  FormText,
+  UncontrolledAlert
 } from "reactstrap";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
@@ -42,10 +43,12 @@ export default class ProfilePage extends React.Component {
       name: "",
       email: "",
       brands: [],
+      send: false,
       loading: true
     };
     this.deleteItem = this.deleteItem.bind(this);
     this.addItem = this.addItem.bind(this);
+    this.sendPut = this.sendPut.bind(this);
   }
 
   componentDidMount() {
@@ -75,17 +78,9 @@ export default class ProfilePage extends React.Component {
 
       this.setState({ brands: brandsArr });
     }
-
-    // brandsArr.push
   }
   deleteItem(e) {
     e.preventDefault();
-    // console.log(
-    //   e.target.parentNode.innerText.substring(
-    //     0,
-    //     e.target.parentNode.innerText.indexOf("delete")
-    //   )
-
     let filter = this.state.brands.filter(value => {
       return (
         value !==
@@ -98,10 +93,31 @@ export default class ProfilePage extends React.Component {
     this.setState({ brands: filter });
   }
 
+  sendPut(e) {
+    e.preventDefault();
+    this.setState({ send: false });
+    axios
+      .put("http://localhost:9000/users/favoritebrands", {
+        email: this.state.email,
+        brands: this.state.brands
+      })
+      .then(res => {
+        if (res.status === 201) {
+          this.setState({ send: true });
+        }
+        console.log(res.status);
+      });
+  }
+
   render() {
     return (
       <div>
         {/* <div classNeme="profile-navs" style={{ width: "15%" }}> */}
+        {this.state.send ? (
+          <UncontrolledAlert color="info">
+            You have alread updated your favorite brands
+          </UncontrolledAlert>
+        ) : null}
         <Row>
           <p>Hi! {this.state.name}</p>
           {/* <Nav vertical>
@@ -149,7 +165,7 @@ export default class ProfilePage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Button>Submit</Button>
+          <Button onClick={this.sendPut}>Submit</Button>
         </Row>
         {/* <Row>
           <Form>
