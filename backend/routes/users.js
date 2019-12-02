@@ -46,7 +46,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
-router.get("/favoritebrands", async (req, res) => {
+router.post("/favoritebrands", async (req, res) => {
   Favbrand.find({ email: req.body.email }, (err, docs) => {
     if (!err) {
       console.log(docs);
