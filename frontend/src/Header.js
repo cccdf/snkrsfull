@@ -22,15 +22,30 @@ import {
 } from "reactstrap";
 import NewsPage from "./NewsPage";
 import { getJwt } from "./helpers/jwt";
+import axios from "axios";
 
 const AVATAR =
   "https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg";
+
+async function getUserInfo() {
+  return axios
+    .get("http://localhost:9000/users/me", {
+      headers: { Authorization: `Bearer ${localStorage.getItem("cool-jwt")}` }
+    })
+    .then(res => {
+      // const brands = getUserFav(res.data.email);
+      console.log(res.data);
+      return res.data;
+    });
+}
 
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
     this.localStorageUpdated = this.localStorageUpdated.bind(this);
     this.state = {
+      name: "",
+      email: "",
       status: null
     };
   }
@@ -40,7 +55,11 @@ export default class Header extends React.Component {
       this.setState({
         status: localStorage.getItem("cool-jwt") ? true : false
       });
-
+      if (localStorage.getItem("cool-jwt")) {
+        getUserInfo().then(data => {
+          this.setState({ name: data.name, email: data.email });
+        });
+      }
       window.addEventListener("storage", this.localStorageUpdated);
     }
   }
@@ -113,7 +132,11 @@ export default class Header extends React.Component {
 
                 {localStorage.getItem("cool-jwt") ? (
                   <NavItem>
-                    <NavLink href="/profile/" activeClassName="active">
+                    <NavLink
+                      href={`/profile/${this.state.name}`}
+                      // to={`/profile/${this.state.name}`}
+                      activeClassName="active"
+                    >
                       PROFILE
                     </NavLink>
                   </NavItem>

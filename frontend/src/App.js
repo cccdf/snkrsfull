@@ -43,8 +43,8 @@ export default class App extends React.Component {
               <Route path="/signup/" exact={true}>
                 <SignupPage />
               </Route>
-              <Route path="/profile/" exact={true}>
-                <ProfilePage />
+              <Route path="/profile/:username" component={ProfilePage}>
+                {/* <ProfilePage /> */}
               </Route>
               <Route path="/profile/resetpwd" exact={true}>
                 <Resetpwd />
