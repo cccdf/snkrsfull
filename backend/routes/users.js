@@ -68,21 +68,35 @@ router.post("/login", async (req, res) => {
   }
 });
 
-router.post("/favoritebrands", async (req, res) => {
-  Favbrand.find({ email: req.body.email }, (err, docs) => {
-    if (!err) {
-      console.log(docs);
-      if (Object.keys(docs).length !== 0) {
+//if exsisting query it
+router.post("/favoritebrands/search", async (req, res) => {
+  console.log(req.body.email);
+  console.log(await Favbrand.exists({ email: req.body.email }));
+  const checkExist = await Favbrand.exists({ email: req.body.email });
+  if (checkExist) {
+    Favbrand.find({ email: req.body.email }, (err, docs) => {
+      if (!err) {
+        console.log(docs);
+
         res.jsonp(docs);
       } else {
-        res.status(204);
+        throw err;
       }
-    } else {
-      throw err;
+    });
+  } else {
+    try {
+      const userfav = new Favbrand(req.body);
+      console.log(userfav);
+      await userfav.save();
+      res.status(201).send(userfav);
+    } catch (error) {
+      res.status(400).send(error);
     }
-  });
+    res.status(204).send("doesnot exist");
+  }
 });
 
+// //not exsisting then create a dom
 // router.post("/favoritebrands", async (req, res) => {
 //   try {
 //     const userfav = new Favbrand(req.body);
@@ -99,7 +113,7 @@ router.put("/favoritebrands", async (req, res) => {
   const update = { brand: req.body.brands };
   console.log(filter, update);
   let doc = await Favbrand.findOne(filter);
-  await Favbrand.updateOne(filter, update);
+  await Favbrand.updateOne(filter, update, { upsert: true });
   doc.brands = req.body.brands;
   await doc.save();
   res.status(201).send({ doc });

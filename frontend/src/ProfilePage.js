@@ -30,10 +30,21 @@ async function getUserInfo() {
 
 async function getUserFav(email) {
   return axios
-    .post("http://localhost:9000/users/favoritebrands", { email: email })
+    .post("http://localhost:9000/users/favoritebrands/search", { email: email })
     .then(res => {
-      console.log(res.data[0].brands);
-      return res.data[0].brands;
+      console.log(res);
+      console.log(typeof res.data);
+      // if (res.data.length === 0) {
+      //   axios.post("http://localhost:9000/users/favoritebrands", {
+      //     email: email,
+      //     brands: " "
+      //   });
+      // }
+      if (res.data[0]) {
+        return res.data[0].brands;
+      } else {
+        return res.data.brands;
+      }
     });
 }
 
@@ -154,16 +165,18 @@ export default class ProfilePage extends React.Component {
         </Row>
         <Row>
           <p>Brands you like:</p>
-          <ul>
-            {Object.values(this.state.brands).map(brand => {
-              return (
-                <li>
-                  {brand}
-                  <button onClick={this.deleteItem}>delete</button>
-                </li>
-              );
-            })}
-          </ul>
+          {this.state.brands ? (
+            <ul>
+              {Object.values(this.state.brands).map(brand => {
+                return (
+                  <li>
+                    {brand}
+                    <button onClick={this.deleteItem}>delete</button>
+                  </li>
+                );
+              })}
+            </ul>
+          ) : null}
         </Row>
         <Row>
           <p>
