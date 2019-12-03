@@ -48,6 +48,7 @@ export default class Header extends React.Component {
       email: "",
       status: null
     };
+    this.logout = this.logout.bind(this);
   }
 
   componentDidMount() {
@@ -79,6 +80,10 @@ export default class Header extends React.Component {
   }
   updateState(value) {
     this.setState({ status: value });
+  }
+
+  logout() {
+    localStorage.removeItem("cool-jwt");
   }
 
   render() {
@@ -147,6 +152,13 @@ export default class Header extends React.Component {
                     </NavLink>
                   </NavItem>
                 )}
+                {localStorage.getItem("cool-jwt") ? (
+                  <NavItem>
+                    <NavLink href="/" onClick={this.logout}>
+                      LOGOUT
+                    </NavLink>
+                  </NavItem>
+                ) : null}
               </Nav>
             </Container>
           </Navbar>
