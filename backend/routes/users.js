@@ -121,6 +121,7 @@ router.put("/favoritebrands", async (req, res) => {
 
 router.delete("/delete", async (req, res) => {
   const filter = { email: req.body.email };
+  console.log(req.body);
   Favbrand.deleteOne(filter, err => {
     if (err) {
       return handleError(err);

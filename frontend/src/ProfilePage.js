@@ -9,7 +9,10 @@ import {
   Label,
   Input,
   FormText,
-  UncontrolledAlert
+  UncontrolledAlert,
+  ListGroup,
+  ListGroupItem,
+  ListGroupItemHeading
 } from "reactstrap";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
@@ -127,7 +130,9 @@ export default class ProfilePage extends React.Component {
     e.preventDefault();
     axios
       .delete("http://localhost:9000/users/delete", {
-        email: this.state.email
+        data: {
+          email: this.state.email
+        }
       })
       .then(res => {
         if (res.status === 200) {
@@ -151,52 +156,94 @@ export default class ProfilePage extends React.Component {
           </UncontrolledAlert>
         ) : null}
         <Row>
-          <p>Hi! {this.state.name}</p>
-          {/* <Nav vertical>
-            <NavItem>
-              <NavLink href="#">Profile</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">Setting</NavLink>
-            </NavItem>
-          </Nav>
-          <hr /> */}
-          <Button onClick={this.deleteAccount}>Delete your account</Button>
+          <Col>
+            {" "}
+            <p style={{ fontSize: "200%" }}>Hi! {this.state.name}</p>
+          </Col>
+          <Button color="danger" size="small" onClick={this.deleteAccount}>
+            Delete your account
+          </Button>
         </Row>
         <Row>
-          <p>Brands you like:</p>
-          {this.state.brands ? (
-            <ul>
-              {Object.values(this.state.brands).map(brand => {
-                return (
-                  <li>
-                    {brand}
-                    <button onClick={this.deleteItem}>delete</button>
-                  </li>
-                );
-              })}
-            </ul>
-          ) : null}
+          <Col xs={{ size: 3, order: 1 }}>
+            <p>Brands you like:</p>
+          </Col>
         </Row>
         <Row>
-          <p>
-            Choose brand you like we will send an email to you if there are new
-            released shoes
-          </p>
+          <Col style={{ maxWidth: "50%" }}>
+            {this.state.brands ? (
+              <ListGroup>
+                {Object.values(this.state.brands).map(brand => {
+                  return (
+                    <ListGroupItem>
+                      {brand}
+                      <button
+                        onClick={this.deleteItem}
+                        style={{ float: "right" }}
+                      >
+                        Delete
+                      </button>
+                    </ListGroupItem>
+                  );
+                })}
+              </ListGroup>
+            ) : null}
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ size: 3, order: 1 }}>
+            {" "}
+            <p>
+              Choose brand you like we will send an email to you if there are
+              new released shoes
+            </p>
+          </Col>
         </Row>
         <Row>
           {/* <FavBrand /> */}
-          <Col xs="3">
-            <Button onClick={this.addItem}>Nike</Button>
+          <Col
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              maxWidth: "10%"
+            }}
+          >
+            <Button color="info" onClick={this.addItem}>
+              Nike
+            </Button>
           </Col>
-          <Col>
-            <Button onClick={this.addItem}>Adidas</Button>
+          <Col
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              maxWidth: "10%"
+            }}
+          >
+            <Button color="info" onClick={this.addItem}>
+              Adidas
+            </Button>
           </Col>
-          <Col>
-            <Button onClick={this.addItem}>Air Jordan</Button>
+          <Col
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              maxWidth: "10%"
+            }}
+          >
+            <Button color="info" onClick={this.addItem}>
+              Air Jordan
+            </Button>
           </Col>
-          <Col>
-            <Button onClick={this.addItem}>Yeezy</Button>
+          <Col
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              maxWidth: "10%"
+            }}
+          >
+            <Button color="info" onClick={this.addItem}>
+              Yeezy
+            </Button>
           </Col>
         </Row>
         <Row>
