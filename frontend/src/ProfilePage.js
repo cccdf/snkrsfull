@@ -11,8 +11,7 @@ import {
   FormText,
   UncontrolledAlert,
   ListGroup,
-  ListGroupItem,
-  ListGroupItemHeading
+  ListGroupItem
 } from "reactstrap";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
@@ -24,8 +23,6 @@ async function getUserInfo() {
       headers: { Authorization: `Bearer ${localStorage.getItem("cool-jwt")}` }
     })
     .then(res => {
-      // const brands = getUserFav(res.data.email);
-      console.log(res.data);
       return res.data;
     });
 }
@@ -36,14 +33,6 @@ async function getUserFav(email) {
       email: email
     })
     .then(res => {
-      console.log(res);
-      console.log(typeof res.data);
-      // if (res.data.length === 0) {
-      //   axios.post("https://snkr-news-api.herokuapp.com/users/favoritebrands", {
-      //     email: email,
-      //     brands: " "
-      //   });
-      // }
       if (res.data[0]) {
         return res.data[0].brands;
       } else {
@@ -71,10 +60,8 @@ export default class ProfilePage extends React.Component {
 
   componentDidMount() {
     this.setState({ loading: true });
-    console.log(localStorage.getItem("cool-jwt"));
-    getUserInfo().then(data => {
-      console.log(data);
 
+    getUserInfo().then(data => {
       this.setState({
         name: data.name,
         email: data.email,
@@ -89,7 +76,7 @@ export default class ProfilePage extends React.Component {
   addItem(e) {
     e.preventDefault();
     let brandsArr = this.state.brands;
-    console.log(e.target.innerText);
+
     let brand = e.target.innerText;
     if (brandsArr.indexOf(brand) === -1) {
       brandsArr.push(brand);
@@ -123,7 +110,6 @@ export default class ProfilePage extends React.Component {
         if (res.status === 201) {
           this.setState({ send: true });
         }
-        console.log(res.status);
       });
   }
 
@@ -138,7 +124,6 @@ export default class ProfilePage extends React.Component {
           this.setState({ name: "", email: "", brands: [], redirect: true });
           localStorage.removeItem("cool-jwt");
         }
-        console.log(res.status);
       });
   }
 
@@ -148,46 +133,49 @@ export default class ProfilePage extends React.Component {
     }
     return (
       <div>
-        {/* <div classNeme="profile-navs" style={{ width: "15%" }}> */}
         {this.state.send ? (
           <UncontrolledAlert color="info">
             Update successfully
           </UncontrolledAlert>
         ) : null}
         <Row>
-          <Col>
-            <p data-testid="username" style={{ fontSize: "200%" }}>
+          <Col md={4}>
+            <p
+              data-testid="username"
+              style={{ fontWeight: "bold", fontSize: "60px" }}
+            >
               Hi! {this.state.name}
             </p>
           </Col>
-          <Button
-            data-testid="deleteaccount"
-            color="danger"
-            size="small"
-            onClick={this.deleteAccount}
-          >
-            Delete your account
-          </Button>
-        </Row>
-        <Row>
-          <Col xs={{ size: 3, order: 1 }}>
-            <p data-testid="userchose">Brands you like:</p>
+          <Col md={{ span: 4, offset: 4 }}>
+            <Button
+              data-testid="deleteaccount"
+              color="danger"
+              onClick={this.deleteAccount}
+              style={{ float: "right" }}
+            >
+              Delete your account
+            </Button>
           </Col>
         </Row>
         <Row>
-          <Col style={{ maxWidth: "50%" }}>
+          <Col style={{ maxWidth: "20%" }}>
+            <p data-testid="userchose">Brands you like:</p>
+          </Col>
+          <Col>
             {this.state.brands ? (
-              <ListGroup>
+              <ListGroup style={{ maxWidth: "80%" }}>
                 {Object.values(this.state.brands).map(brand => {
                   return (
                     <ListGroupItem>
                       {brand}
-                      <button
-                        onClick={this.deleteItem}
+                      <Button
+                        color="danger"
+                        onCListGroupItemck={this.deleteItem}
                         style={{ float: "right" }}
                       >
                         Delete
-                      </button>
+                      </Button>
                     </ListGroupItem>
                   );
                 })}
@@ -196,8 +184,7 @@ export default class ProfilePage extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col xs={{ size: 3, order: 1 }}>
-            {" "}
+          <Col>
             <p data-testid="choseinfo">
               Choose brand you like we will send an email to you if there are
               new released shoes
@@ -205,57 +192,31 @@ export default class ProfilePage extends React.Component {
           </Col>
         </Row>
         <Row data-testid="chosebutton">
-          <Col
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              maxWidth: "10%"
-            }}
-          >
+          <Col style={{ maxWidth: "10%" }}>
             <Button color="info" onClick={this.addItem}>
               Nike
             </Button>
           </Col>
-          <Col
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              maxWidth: "10%"
-            }}
-          >
+          <Col style={{ maxWidth: "10%" }}>
             <Button color="info" onClick={this.addItem}>
               Adidas
             </Button>
           </Col>
-          <Col
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              maxWidth: "10%"
-            }}
-          >
+          <Col style={{ maxWidth: "10%" }}>
             <Button color="info" onClick={this.addItem}>
               Air Jordan
             </Button>
           </Col>
-          <Col
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              maxWidth: "10%"
-            }}
-          >
-            <Button
-              data-testid="updatelike"
-              color="info"
-              onClick={this.addItem}
-            >
+          <Col style={{ maxWidth: "10%" }}>
+            <Button color="info" onClick={this.addItem}>
               Yeezy
             </Button>
           </Col>
         </Row>
         <Row>
-          <Button onClick={this.sendPut}>Submit</Button>
+          <Button data-testid="updatelike" onClick={this.sendPut}>
+            Submit
+          </Button>
         </Row>
         {/* <Row>
           <Form>
