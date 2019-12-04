@@ -16,12 +16,11 @@ import {
 } from "reactstrap";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
-import FavBrand from "./FavBrand";
 import { Redirect } from "react-router-dom";
 
 async function getUserInfo() {
   return axios
-    .get("http://localhost:9000/users/me", {
+    .get("https://snkr-news-api.herokuapp.com/users/me", {
       headers: { Authorization: `Bearer ${localStorage.getItem("cool-jwt")}` }
     })
     .then(res => {
@@ -33,12 +32,14 @@ async function getUserInfo() {
 
 async function getUserFav(email) {
   return axios
-    .post("http://localhost:9000/users/favoritebrands/search", { email: email })
+    .post("https://snkr-news-api.herokuapp.com/users/favoritebrands/search", {
+      email: email
+    })
     .then(res => {
       console.log(res);
       console.log(typeof res.data);
       // if (res.data.length === 0) {
-      //   axios.post("http://localhost:9000/users/favoritebrands", {
+      //   axios.post("https://snkr-news-api.herokuapp.com/users/favoritebrands", {
       //     email: email,
       //     brands: " "
       //   });
@@ -114,7 +115,7 @@ export default class ProfilePage extends React.Component {
     e.preventDefault();
     this.setState({ send: false });
     axios
-      .put("http://localhost:9000/users/favoritebrands", {
+      .put("https://snkr-news-api.herokuapp.com/users/favoritebrands", {
         email: this.state.email,
         brands: this.state.brands
       })
@@ -129,10 +130,8 @@ export default class ProfilePage extends React.Component {
   deleteAccount(e) {
     e.preventDefault();
     axios
-      .delete("http://localhost:9000/users/delete", {
-        data: {
-          email: this.state.email
-        }
+      .delete("https://snkr-news-api.herokuapp.com/users/delete", {
+        email: this.state.email
       })
       .then(res => {
         if (res.status === 200) {

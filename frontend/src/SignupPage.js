@@ -7,7 +7,7 @@ import "./SignupPage.css";
 import axios from "axios";
 
 // const API = "https://snkr-news-api.herokuapp.com";
-const API = "http://localhost:9000/users/register";
+const API = "https://snkr-news-api.herokuapp.com/users/register";
 export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
@@ -36,7 +36,7 @@ export default class SignupPage extends React.Component {
   handleSubmit = async e => {
     e.preventDefault();
     axios
-      .post("http://localhost:9000/users/register", {
+      .post("https://snkr-news-api.herokuapp.com/users/register", {
         email: this.state.email,
         name: this.state.name,
         password: this.state.password

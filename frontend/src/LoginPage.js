@@ -30,7 +30,7 @@ export default class LoginPage extends React.Component {
   async handleSubmit(e) {
     e.preventDefault();
     axios
-      .post("http://localhost:9000/users/login", {
+      .post("https://snkr-news-api.herokuapp.com/users/login", {
         email: this.state.email,
         password: this.state.password
       })

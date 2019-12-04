@@ -11,6 +11,7 @@ import adidas from "./img/adidas.jpg";
 import aj from "./img/aj.jpg";
 import nike from "./img/nike.jpg";
 import yeezy from "./img/yeezy.jpg";
+import InfoCard from "./InfoCard";
 
 async function getNikeApi() {
   let response = await fetch("https://snkr-news-api.herokuapp.com/nike");
@@ -69,21 +70,29 @@ export default class HomePage extends React.Component {
           <div className="row" style={{ height: 260 }}>
             {this.state.upcomings.map(upcoming => {
               return (
-                <div className="infocard">
-                  <img
-                    width="200"
-                    height="200"
-                    className="shoesimage"
-                    src={upcoming.img_link}
-                  ></img>
-                  <div className="title" style={{ bottom: "5%" }}>
-                    <a href={upcoming.product_link}>{upcoming.title[1]}</a>
-                  </div>
-                  <div className="time">
-                    <p>{upcoming.time}</p>
-                  </div>
-                </div>
+                <InfoCard
+                  imglink={upcoming.img_link}
+                  productlink={upcoming.product_link}
+                  producttitle={upcoming.title[1]}
+                  releasetime={upcoming.time}
+                />
               );
+              // return (
+              //   <div className="infocard">
+              //     <img
+              //       width="200"
+              //       height="200"
+              //       className="shoesimage"
+              //       src={upcoming.img_link}
+              //     ></img>
+              //     <div className="title" style={{ bottom: "5%" }}>
+              //       <a href={upcoming.product_link}>{upcoming.title[1]}</a>
+              //     </div>
+              //     <div className="time">
+              //       <p>{upcoming.time}</p>
+              //     </div>
+              //   </div>
+              // );
             })}
           </div>
 
@@ -101,21 +110,29 @@ export default class HomePage extends React.Component {
           <div className="row" style={{ height: 260 }}>
             {this.state.results.map(result => {
               return (
-                <div className="infocard">
-                  <img
-                    width="200"
-                    height="200"
-                    className="shoesimage"
-                    src={result.img_link}
-                  ></img>
-                  <div className="title">
-                    <a href={result.product_link}>{result.title}</a>
-                  </div>
-                  <div className="price">
-                    <p>Price:{result.price}</p>
-                  </div>
-                </div>
+                <InfoCard
+                  imglink={result.img_link}
+                  productlink={result.product_link}
+                  producttitle={result.title}
+                  price={result.price}
+                />
               );
+              // return (
+              //   <div className="infocard">
+              //     <img
+              //       width="200"
+              //       height="200"
+              //       className="shoesimage"
+              //       src={result.img_link}
+              //     ></img>
+              //     <div className="title">
+              //       <a href={result.product_link}>{result.title}</a>
+              //     </div>
+              //     <div className="price">
+              //       <p>Price:{result.price}</p>
+              //     </div>
+              //   </div>
+              // );
             })}
           </div>
           <div className="row">
