@@ -169,7 +169,7 @@ export default class HomePage extends React.Component {
               </a>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <CarouselSnkrs></CarouselSnkrs>
           </div>
           <div
@@ -177,7 +177,7 @@ export default class HomePage extends React.Component {
             style={{ backgroundColor: "#ddd", height: 200 }}
           >
             <Footer></Footer>
-          </div>
+          </div> */}
         </div>
       );
     }

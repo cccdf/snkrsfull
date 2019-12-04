@@ -42,12 +42,8 @@ export default class App extends React.Component {
               <Route path="/signup/" exact={true}>
                 <SignupPage />
               </Route>
-              <Route path="/profile/:username" component={ProfilePage}>
-                {/* <ProfilePage /> */}
-              </Route>
-              {/* <Route path="/profile/resetpwd" exact={true}>
-                <Resetpwd />
-              </Route> */}
+              <Route path="/profile/:username" component={ProfilePage}></Route>
+
               <Route component={PageNotFound}></Route>
             </Switch>
           </Router>

@@ -29,7 +29,7 @@ const AVATAR =
 
 async function getUserInfo() {
   return axios
-    .get("http://localhost:9000/users/me", {
+    .get("https://snkr-news-api.herokuapp.com/users/me", {
       headers: { Authorization: `Bearer ${localStorage.getItem("cool-jwt")}` }
     })
     .then(res => {
@@ -98,10 +98,12 @@ export default class Header extends React.Component {
             className="border-bottom border-gray bg-white"
             style={{ height: 80 }}
           >
-            <NavbarBrand href="/">SNKRS PARADISE</NavbarBrand>
+            <NavbarBrand data-testid="logo" href="/">
+              SNKRS PARADISE
+            </NavbarBrand>
             <Container>
               <Nav className="ml-auto" navbar tabs>
-                <Form inline>
+                <Form data-testid="searchform" inline>
                   <Input
                     type="search"
                     className="mr-3"
@@ -121,17 +123,19 @@ export default class Header extends React.Component {
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="/news/">NEWS</NavLink>
+                  <NavLink data-testid="newslink" href="/news/">
+                    NEWS
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/chatroom/">CHATROOM</NavLink>
+                  <NavLink data-testid="chatroom" href="/chatroom/">
+                    CHATROOM
+                  </NavLink>
                 </NavItem>
 
                 {localStorage.getItem("cool-jwt") ? null : (
                   <NavItem>
-                    <NavLink href="/signup/" activeClassName="active">
-                      SIGN UP
-                    </NavLink>
+                    <NavLink href="/signup/">SIGN UP</NavLink>
                   </NavItem>
                 )}
 
@@ -140,16 +144,13 @@ export default class Header extends React.Component {
                     <NavLink
                       href={`/profile/${this.state.name}`}
                       // to={`/profile/${this.state.name}`}
-                      activeClassName="active"
                     >
                       PROFILE
                     </NavLink>
                   </NavItem>
                 ) : (
                   <NavItem>
-                    <NavLink href="/login/" activeClassName="active">
-                      LOGIN
-                    </NavLink>
+                    <NavLink href="/login/">LOGIN</NavLink>
                   </NavItem>
                 )}
                 {localStorage.getItem("cool-jwt") ? (

@@ -156,16 +156,22 @@ export default class ProfilePage extends React.Component {
         ) : null}
         <Row>
           <Col>
-            {" "}
-            <p style={{ fontSize: "200%" }}>Hi! {this.state.name}</p>
+            <p data-testid="username" style={{ fontSize: "200%" }}>
+              Hi! {this.state.name}
+            </p>
           </Col>
-          <Button color="danger" size="small" onClick={this.deleteAccount}>
+          <Button
+            data-testid="deleteaccount"
+            color="danger"
+            size="small"
+            onClick={this.deleteAccount}
+          >
             Delete your account
           </Button>
         </Row>
         <Row>
           <Col xs={{ size: 3, order: 1 }}>
-            <p>Brands you like:</p>
+            <p data-testid="userchose">Brands you like:</p>
           </Col>
         </Row>
         <Row>
@@ -192,14 +198,13 @@ export default class ProfilePage extends React.Component {
         <Row>
           <Col xs={{ size: 3, order: 1 }}>
             {" "}
-            <p>
+            <p data-testid="choseinfo">
               Choose brand you like we will send an email to you if there are
               new released shoes
             </p>
           </Col>
         </Row>
-        <Row>
-          {/* <FavBrand /> */}
+        <Row data-testid="chosebutton">
           <Col
             style={{
               display: "flex",
@@ -240,7 +245,11 @@ export default class ProfilePage extends React.Component {
               maxWidth: "10%"
             }}
           >
-            <Button color="info" onClick={this.addItem}>
+            <Button
+              data-testid="updatelike"
+              color="info"
+              onClick={this.addItem}
+            >
               Yeezy
             </Button>
           </Col>
