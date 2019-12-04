@@ -86,16 +86,18 @@ export default class ProfilePage extends React.Component {
   }
   deleteItem(e) {
     e.preventDefault();
-    let filter = this.state.brands.filter(value => {
+
+    let filtered = this.state.brands.filter(brand => {
       return (
-        value !==
+        brand !==
         e.target.parentNode.innerText.substring(
           0,
-          e.target.parentNode.innerText.indexOf("delete")
+          e.target.parentNode.innerText.indexOf("Delete") - 1
         )
       );
     });
-    this.setState({ brands: filter });
+
+    this.setState({ brands: filtered });
   }
 
   sendPut(e) {
@@ -171,7 +173,7 @@ export default class ProfilePage extends React.Component {
                       {brand}
                       <Button
                         color="danger"
-                        onCListGroupItemck={this.deleteItem}
+                        onClick={this.deleteItem}
                         style={{ float: "right" }}
                       >
                         Delete
