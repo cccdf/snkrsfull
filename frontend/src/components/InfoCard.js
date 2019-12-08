@@ -28,7 +28,7 @@ export default class InfoCard extends React.Component {
           </div>
         ) : (
           <div className="price">
-            <p>Price:{this.props.price}</p>
+            <p>Price: ${this.props.price}</p>
           </div>
         )}
       </div>
