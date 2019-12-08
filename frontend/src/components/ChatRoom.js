@@ -1,7 +1,8 @@
 import React from "react";
 import Messages from "./Messages";
 import Input from "./Input";
-import "./ChatRoom.css";
+import "../css/ChatRoom.css";
+import emitter from "../util/events";
 
 function randomName() {
   const adjectives = [
@@ -177,17 +178,17 @@ export default class ChatRoom extends React.Component {
   }
 
   onSendMessage = message => {
-    // const messages = this.state.messages;
-    // messages.push({
-    //   text: message,
-    //   member: this.state.member
-    // });
-    // this.setState({ messages: messages });
     this.drone.publish({
       room: "observable-room",
       message
     });
   };
+
+  componentDidMount() {
+    if (localStorage.getItem("cool-jwt")) {
+      emitter.emit("loginStatus", true);
+    }
+  }
 
   render() {
     return (

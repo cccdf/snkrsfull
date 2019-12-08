@@ -1,5 +1,5 @@
 import React from "react";
-import "./InfoCard.css";
+import "../css/InfoCard.css";
 export default class InfoCard extends React.Component {
   constructor(props) {
     super(props);

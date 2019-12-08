@@ -1,17 +1,18 @@
-import React, { Fragment } from "react";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import React from "react";
+import { Button, UncontrolledAlert, FormGroup, Label, Input } from "reactstrap";
 import { Redirect } from "react-router-dom";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
-//redirect and signup redirect
-const API = "https://snkr-news-api.herokuapp.com";
+import emitter from "../util/events";
 
 export default class LoginPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       email: "",
-      password: ""
+      password: "",
+      redirectToPostsPage: false,
+      pwdwrong: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -35,35 +36,13 @@ export default class LoginPage extends React.Component {
         password: this.state.password
       })
       .then(res => {
-        console.log(res.data.token);
         localStorage.setItem("cool-jwt", res.data.token);
+        this.setState({ redirectToPostsPage: true });
+        emitter.emit("loginStatus", true);
+      })
+      .catch(err => {
+        this.setState({ pwdwrong: true });
       });
-    this.setState({ redirectToPostsPage: true });
-    // await fetch(`${API}/users/login`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json"
-    //   },
-    //   body: JSON.stringify({
-    //     email: this.state.email,
-    //     password: this.state.password
-    //   })
-    // }).then(res => {
-    //   console.log(res);
-    //   if (res.status === 200) {
-    //     alert("Login successfully");
-    //     console.log("Login successfully");
-    //   } else if (res.status === 204) {
-    //     alert("Password doesn't match");
-    //     console.log("Password doesn't match");
-    //   } else {
-    //     alert("Username does not exist");
-    //     console.log("Email is not registered");
-    //   }
-    // });
-    // console.log("The form was submitted with the following data:");
-    // console.log(this.state);
-    // this.setState({ redirectToPostsPage: true });
   }
   renderForm = () => {
     return (
@@ -112,6 +91,17 @@ export default class LoginPage extends React.Component {
     if (this.state.redirectToPostsPage) {
       return <Redirect to="/" />;
     }
-    return <div>{this.renderForm()}</div>;
+    return (
+      <div>
+        <div>
+          {this.state.pwdwrong ? (
+            <UncontrolledAlert color="info">
+              Wrong password or invalid email
+            </UncontrolledAlert>
+          ) : null}
+        </div>
+        {this.renderForm()}
+      </div>
+    );
   }
 }

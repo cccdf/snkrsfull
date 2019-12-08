@@ -1,9 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import {
   Container,
-  Row,
-  Col,
   Form,
   Input,
   Button,
@@ -15,14 +13,10 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText
+  DropdownItem
 } from "reactstrap";
-import NewsPage from "./NewsPage";
-import { getJwt } from "./helpers/jwt";
 import axios from "axios";
+import emitter from "../util/events";
 
 const AVATAR =
   "https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg";
@@ -33,8 +27,6 @@ async function getUserInfo() {
       headers: { Authorization: `Bearer ${localStorage.getItem("cool-jwt")}` }
     })
     .then(res => {
-      // const brands = getUserFav(res.data.email);
-      console.log(res.data);
       return res.data;
     });
 }
@@ -42,45 +34,61 @@ async function getUserInfo() {
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
-    this.localStorageUpdated = this.localStorageUpdated.bind(this);
+    // this.localStorageUpdated = this.localStorageUpdated.bind(this);
     this.state = {
       name: "",
       email: "",
       status: null
     };
     this.logout = this.logout.bind(this);
+    // this.eventEmitter = this.eventEmitter.bind(this);
   }
 
   componentDidMount() {
-    if (typeof window !== "undefined") {
-      this.setState({
-        status: localStorage.getItem("cool-jwt") ? true : false
+    this.eventEmitter = emitter.addListener("loginStatus", status => {
+      this.setState({ status });
+      getUserInfo().then(data => {
+        this.setState({ name: data.name, email: data.email });
       });
-      if (localStorage.getItem("cool-jwt")) {
-        getUserInfo().then(data => {
-          this.setState({ name: data.name, email: data.email });
-        });
-      }
-      window.addEventListener("storage", this.localStorageUpdated);
-    }
+    });
+    // if (typeof window !== "undefined") {
+    //   this.setState({
+    //     status: localStorage.getItem("cool-jwt") ? true : false
+    //   });
+    //   if (localStorage.getItem("cool-jwt")) {
+    // getUserInfo().then(data => {
+    //   this.setState({ name: data.name, email: data.email });
+    // });
+    //   }
+    //   window.addEventListener("storage", this.localStorageUpdated);
+    // }
   }
 
   componentWillUnmount() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("storage", this.localStorageUpdated);
-    }
+    emitter.removeListener("loginStatus", () => {});
+    // if (typeof window !== "undefined") {
+    //   window.removeEventListener("storage", this.localStorageUpdated);
+    // }
   }
 
-  localStorageUpdated() {
-    if (!localStorage.getItem("cool-jwt")) {
-      this.updateState(false);
-    } else if (!this.state.status) {
-      this.updateState(true);
-    }
-  }
-  updateState(value) {
-    this.setState({ status: value });
-  }
+  // localStorageUpdated() {
+  //   if (!localStorage.getItem("cool-jwt")) {
+  //     this.updateState(false);
+
+  //     window.onstorage = function(e) {
+  //       console.log("no jwt");
+  //     };
+  //   } else if (!this.state.status) {
+  //     this.updateState(true);
+
+  //     window.onstorage = function(e) {
+  //       console.log("jwt");
+  //     };
+  //   }
+  // }
+  // updateState(value) {
+  //   this.setState({ status: value });
+  // }
 
   logout() {
     localStorage.removeItem("cool-jwt");
@@ -133,13 +141,13 @@ export default class Header extends React.Component {
                   </NavLink>
                 </NavItem>
 
-                {localStorage.getItem("cool-jwt") ? null : (
+                {this.state.status ? null : (
                   <NavItem>
                     <NavLink href="/signup/">SIGN UP</NavLink>
                   </NavItem>
                 )}
 
-                {localStorage.getItem("cool-jwt") ? (
+                {this.state.status ? (
                   <NavItem>
                     <NavLink
                       href={`/profile/${this.state.name}`}
@@ -153,7 +161,7 @@ export default class Header extends React.Component {
                     <NavLink href="/login/">LOGIN</NavLink>
                   </NavItem>
                 )}
-                {localStorage.getItem("cool-jwt") ? (
+                {this.state.status ? (
                   <NavItem>
                     <NavLink href="/" onClick={this.logout}>
                       LOGOUT

@@ -1,17 +1,14 @@
 import React, { Fragment } from "react";
-import Container from "react-bootstrap/Container";
 import "./App.css";
-import Header from "./Header";
-
-import { Row, Col } from "react-bootstrap";
+import Header from "./components/Header";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import NewsPage from "./NewsPage";
-import LoginPage from "./LoginPage";
-import ChatRoom from "./ChatRoom";
-import SignupPage from "./SignupPage";
-import ProfilePage from "./ProfilePage";
-import HomePage from "./HomePage";
-import PageNotFound from "./PageNotFound";
+import NewsPage from "./components/NewsPage";
+import LoginPage from "./components/LoginPage";
+import ChatRoom from "./components/ChatRoom";
+import SignupPage from "./components/SignupPage";
+import ProfilePage from "./components/ProfilePage";
+import HomePage from "./components/HomePage";
+import PageNotFound from "./components/PageNotFound";
 
 export default class App extends React.Component {
   constructor(props) {

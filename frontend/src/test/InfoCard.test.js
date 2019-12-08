@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import InfoCard from "./InfoCard.js";
+import InfoCard from "../components/InfoCard.js";
 
 it("renders infocard with props(producttitle)", () => {
   const { queryByText, container } = render(

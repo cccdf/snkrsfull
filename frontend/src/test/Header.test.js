@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import Header from "./Header";
+import Header from "../components/Header";
 
 it("render logo", () => {
   const { queryByTestId } = render(<Header />);

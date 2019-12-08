@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
 import { Spinner } from "reactstrap";
-import "./News.css";
-// import getNewsApi from "./getNewsApi";
+import "../css/News.css";
+import emitter from "../util/events";
 
 async function getNewsApi() {
   let response = await fetch("https://snkr-news-api.herokuapp.com/news");
@@ -21,6 +21,9 @@ export default class NewsPage extends React.Component {
   }
 
   async componentDidMount() {
+    if (localStorage.getItem("cool-jwt")) {
+      emitter.emit("loginStatus", true);
+    }
     this.setState({ loading: true });
     let response = await getNewsApi();
     let tweets = [];

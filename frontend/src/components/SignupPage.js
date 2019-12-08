@@ -1,13 +1,11 @@
-import React, { Fragment, useState } from "react";
-
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import React from "react";
+import emitter from "../util/events";
+import { Button, FormGroup, Label, Input } from "reactstrap";
 import { Link, Redirect } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
-import "./SignupPage.css";
+import "../css//SignupPage.css";
 import axios from "axios";
 
-// const API = "https://snkr-news-api.herokuapp.com";
-const API = "https://snkr-news-api.herokuapp.com/users/register";
 export default class SignupPage extends React.Component {
   constructor(props) {
     super(props);
@@ -21,8 +19,6 @@ export default class SignupPage extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.validateForm = this.validateForm.bind(this);
-    // const [newUser, setNewUser] = useState(null);
-    // const [isLoading, setIsLoading] = useState(false);
   }
 
   handleChange(e) {
@@ -42,34 +38,11 @@ export default class SignupPage extends React.Component {
         password: this.state.password
       })
       .then(res => {
-        console.log(res);
         localStorage.setItem("cool-jwt", res.data.token);
+        emitter.emit("loginStatus", true);
       });
-    // await fetch(`${API}/users/register`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json"
-    //   },
-    //   body: JSON.stringify({
-    //     email: this.state.email,
-    //     name: this.state.name,
-    //     password: this.state.password
-    //   })
-    // }).then(res => {
-    //   console.log(res);
-    //   localStorage.setItem("cool-jwt", res.token);
-    // });
+
     this.setState({ redirectToPostsPage: true });
-    // const { email, password, confirmPassword, name, hasAgreed } = this.state;
-    // fetch("http://localhost:4000/api/users/register", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-type": "application/json"
-    //   },
-    //   body: JSON.stringify(this.state)
-    // });
-    console.log("The form was submitted with the following data:");
-    console.log(this.state);
   };
 
   validateForm() {
@@ -113,7 +86,6 @@ export default class SignupPage extends React.Component {
                 value={this.state.name}
                 placeholder="enter name"
                 onChange={this.handleChange}
-                // style={{ height: 5 }}
               />
             </FormGroup>
           </Col>
@@ -202,12 +174,6 @@ export default class SignupPage extends React.Component {
     if (this.state.redirectToPostsPage) {
       return <Redirect to="/" />;
     }
-    return (
-      <div className="SignUp">
-        {this.renderForm()}
-        {/* {newUser === null ? renderForm() : renderConfirmationForm()} */}
-        {/* <h1>SignupPage</h1> */}
-      </div>
-    );
+    return <div className="SignUp">{this.renderForm()}</div>;
   }
 }

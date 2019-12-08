@@ -1,457 +1,29 @@
 [
     {
-        "id":1189757651095314432,
-        "conversation_id":"1189757651095314432",
-        "created_at":1572495303000,
-        "date":"2019-10-30",
-        "time":"21:15:03",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"ICYMI: Sneaker News x @wilsonbasktball Miniature basketball. Releasing in limited quantities today, 10/31, completely free (just pay shipping, $8). Must subscribe to our email newsletter to get access:  ",
-        "mentions":[
-            "wilsonbasktball"
-        ],
-        "urls":[
-            "https://snkrne.ws/2tZTVJz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILeR1PXYAEei2m.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":1,
-        "likes_count":11,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189757651095314432",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"117220541",
-                "username":"WilsonBasktball"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189753994417188869,
-        "conversation_id":"1189753994417188869",
-        "created_at":1572494431000,
-        "date":"2019-10-30",
-        "time":"21:00:31",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The adidas Yeezy 500 \"Soft Vision\" is dropping soon in full family sizes; Here's where you can cop  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qVmEAP"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILa8_TWkAAjE-i.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":6,
-        "likes_count":40,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189753994417188869",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189753218005385217,
-        "conversation_id":"1189753218005385217",
-        "created_at":1572494246000,
-        "date":"2019-10-30",
-        "time":"20:57:26",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Mission a",
-        "mentions":[],
-        "urls":[],
-        "photos":[],
-        "replies_count":21,
-        "retweets_count":298,
-        "likes_count":658,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189753218005385217",
-        "retweet":false,
-        "quote_url":"",
-        "video":1,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189746343771803648,
-        "conversation_id":"1189746343771803648",
-        "created_at":1572492607000,
-        "date":"2019-10-30",
-        "time":"20:30:07",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The adidas AM4 Speedfactory \u201cCryptic Waves\u201d is officially releasing tomorrow  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2oxI9Hc"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILT_pQWkAAuv7F.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":4,
-        "likes_count":14,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189746343771803648",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189738827218391041,
-        "conversation_id":"1189738827218391041",
-        "created_at":1572490815000,
-        "date":"2019-10-30",
-        "time":"20:00:15",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"A closer look at the Trail Fury by Pyer Moss and Reebok. Releasing 11/2  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2ot7QbP"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILNKJEWsAA1-qn.jpg"
-        ],
-        "replies_count":2,
-        "retweets_count":5,
-        "likes_count":50,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189738827218391041",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189735000993910786,
-        "conversation_id":"1189735000993910786",
-        "created_at":1572489903000,
-        "date":"2019-10-30",
-        "time":"19:45:03",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Olivia Kim's Nike Air Max 98 collaboration is dropping on the Nordstrom web store tomorrow  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/3672vb6"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILJrasWkAEH6aw.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":5,
-        "likes_count":39,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189735000993910786",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189731238120218630,
-        "conversation_id":"1189731238120218630",
-        "created_at":1572489005000,
-        "date":"2019-10-30",
-        "time":"19:30:05",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Air Jordan 7 \"Patent Leather\" for the ladies is releasing tomorrow; Here's where you can cop  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2JgTwKv"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EILGQY6XYAANUa7.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":5,
-        "likes_count":48,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189731238120218630",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189723807424102400,
-        "conversation_id":"1189723807424102400",
-        "created_at":1572487234000,
-        "date":"2019-10-30",
-        "time":"19:00:34",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":".@KyrieIrving's Media Day kicks, the Kyrie Low 2 \"Tn\", is dropping this Friday  ",
-        "mentions":[
-            "kyrieirving"
-        ],
-        "urls":[
-            "https://snkrne.ws/36m7lBd"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIK_f3CXkAYORKb.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":10,
-        "likes_count":87,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189723807424102400",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"317370751",
-                "username":"KyrieIrving"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189719910760534016,
-        "conversation_id":"1189719910760534016",
-        "created_at":1572486305000,
-        "date":"2019-10-30",
-        "time":"18:45:05",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike ACG Mowabb by Olivia Kim and Nike will see an early release tomorrow at Nordstrom  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2WoyNtT"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIK785CWsAEkEQ0.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":8,
-        "likes_count":59,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189719910760534016",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189719905765122053,
-        "conversation_id":"1189719905765122053",
-        "created_at":1572486304000,
-        "date":"2019-10-30",
-        "time":"18:45:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Jordan Brand has major plans for 2020; Check out all the confirmed releases so far  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/31UWiwz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIK78tXXUAEkTZJ.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":23,
-        "likes_count":191,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189719905765122053",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189716130203656192,
-        "conversation_id":"1189716130203656192",
-        "created_at":1572485403000,
-        "date":"2019-10-30",
+        "id":1203501965860331521,
+        "conversation_id":"1203501965860331521",
+        "created_at":1575772203000,
+        "date":"2019-12-07",
         "time":"18:30:03",
-        "timezone":"PDT",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Nike is releasing an assortment Air Force 1s with Gore-Tex this Friday  ",
+        "tweet":"The Air Jordan 3 Retro SP \u201cAnimal Pack\u201d is dropping on December 19th  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/32JddCu"
+            "https://snkrne.ws/34u2tZD"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIK4g87X0AACQdN.jpg"
+            "https://pbs.twimg.com/media/ELOyqO0WsAESBhA.jpg"
         ],
-        "replies_count":4,
-        "retweets_count":13,
-        "likes_count":59,
+        "replies_count":1,
+        "retweets_count":0,
+        "likes_count":7,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189716130203656192",
+        "link":"https://twitter.com/SneakerNews/status/1203501965860331521",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -470,30 +42,30 @@
         "retweet_date":""
     },
     {
-        "id":1189701022836506624,
-        "conversation_id":"1189701022836506624",
-        "created_at":1572481802000,
-        "date":"2019-10-30",
-        "time":"17:30:02",
-        "timezone":"PDT",
+        "id":1203494549051629569,
+        "conversation_id":"1203494549051629569",
+        "created_at":1575770434000,
+        "date":"2019-12-07",
+        "time":"18:00:34",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"The UA Curry 7 \u201cUNDRTD\u201d finally lands on 11/1. Who's adding these to their hoop rotation?  ",
+        "tweet":"The adidas Yeezy Boost 700 MNVN \u201cPhosphor\u201d is dropping next Spring  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2of9FZI"
+            "https://snkrne.ws/2Ponq1R"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKqxoQWoAA_6up.jpg"
+            "https://pbs.twimg.com/media/ELOr6h3XUAAjKXm.jpg"
         ],
-        "replies_count":2,
-        "retweets_count":12,
-        "likes_count":37,
+        "replies_count":1,
+        "retweets_count":1,
+        "likes_count":2,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189701022836506624",
+        "link":"https://twitter.com/SneakerNews/status/1203494549051629569",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -512,30 +84,78 @@
         "retweet_date":""
     },
     {
-        "id":1189697247035961345,
-        "conversation_id":"1189697247035961345",
-        "created_at":1572480901000,
-        "date":"2019-10-30",
-        "time":"17:15:01",
-        "timezone":"PDT",
+        "id":1203486860053549056,
+        "conversation_id":"1203486860053549056",
+        "created_at":1575768601000,
+        "date":"2019-12-07",
+        "time":"17:30:01",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"All the confirmed Yeezy drops for the holiday season  ",
+        "tweet":"Nike crafts a special pair of Air Max 98s for @KMbappe  ",
+        "mentions":[
+            "kmbappe"
+        ],
+        "urls":[
+            "https://snkrne.ws/2Ls2Igd"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELOk695XYAAe85s.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":3,
+        "likes_count":46,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203486860053549056",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"1725137533",
+                "username":"KMbappe"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203479334880763904,
+        "conversation_id":"1203479334880763904",
+        "created_at":1575766807000,
+        "date":"2019-12-07",
+        "time":"17:00:07",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Here are all the Yeezys set to release this month  ",
         "mentions":[],
         "urls":[
             "https://snkrne.ws/2TCp0xn"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKnV2wWoAAZqmG.jpg"
+            "https://pbs.twimg.com/media/ELOeE7xWsAACtny.jpg"
         ],
-        "replies_count":2,
-        "retweets_count":17,
-        "likes_count":104,
+        "replies_count":1,
+        "retweets_count":5,
+        "likes_count":42,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189697247035961345",
+        "link":"https://twitter.com/SneakerNews/status/1203479334880763904",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -554,30 +174,30 @@
         "retweet_date":""
     },
     {
-        "id":1189693581839208448,
-        "conversation_id":"1189693581839208448",
-        "created_at":1572480028000,
-        "date":"2019-10-30",
-        "time":"17:00:28",
-        "timezone":"PDT",
+        "id":1203471763298045952,
+        "conversation_id":"1203471763298045952",
+        "created_at":1575765002000,
+        "date":"2019-12-07",
+        "time":"16:30:02",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"New Balance is dropping the OMN1S \"Heat Waves\" for Halloween tomorrow  ",
+        "tweet":"This forthcoming Air Jordan 1 Mid for women features reflective borders  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2or7gv2"
+            "https://snkrne.ws/364hotV"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKkAe4WkAs6bzS.jpg"
+            "https://pbs.twimg.com/media/ELOXMPDWoAAc2SU.jpg"
         ],
         "replies_count":0,
-        "retweets_count":5,
-        "likes_count":38,
+        "retweets_count":4,
+        "likes_count":47,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189693581839208448",
+        "link":"https://twitter.com/SneakerNews/status/1203471763298045952",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -596,30 +216,30 @@
         "retweet_date":""
     },
     {
-        "id":1189689699515977728,
-        "conversation_id":"1189689699515977728",
-        "created_at":1572479102000,
-        "date":"2019-10-30",
-        "time":"16:45:02",
-        "timezone":"PDT",
+        "id":1203464223831023616,
+        "conversation_id":"1203464223831023616",
+        "created_at":1575763204000,
+        "date":"2019-12-07",
+        "time":"16:00:04",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Olivia Kim's Air Jordan 4 with pony hair is getting an early release at Nordstrom tomorrow  ",
+        "tweet":"Official look at the Nike Dunk Low \"Viotech\" making its return on 12/10  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/348BGS6"
+            "https://snkrne.ws/2OMVvts"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKgegpXsAATsrv.jpg"
+            "https://pbs.twimg.com/media/ELOQVYSXkAIhSIG.jpg"
         ],
-        "replies_count":2,
-        "retweets_count":20,
-        "likes_count":100,
+        "replies_count":0,
+        "retweets_count":18,
+        "likes_count":118,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189689699515977728",
+        "link":"https://twitter.com/SneakerNews/status/1203464223831023616",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -638,32 +258,158 @@
         "retweet_date":""
     },
     {
-        "id":1189685962684665857,
-        "conversation_id":"1189685962684665857",
-        "created_at":1572478211000,
-        "date":"2019-10-30",
-        "time":"16:30:11",
-        "timezone":"PDT",
+        "id":1203456701585874944,
+        "conversation_id":"1203456701585874944",
+        "created_at":1575761411000,
+        "date":"2019-12-07",
+        "time":"15:30:11",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":".@TheShoeSurgeon channels \"Freddy\" SB Dunk vibes on his latest Air Jordan 1 custom. Available tomorrow 10/31 at 8am PST on his web store  ",
-        "mentions":[
-            "theshoesurgeon"
-        ],
+        "tweet":"The adidas Y-3 Rhisu Run is after the Pure Boost's crown\n\n ",
+        "mentions":[],
         "urls":[
-            "https://snkrne.ws/34jHDf7"
+            "https://snkrne.ws/381ACC3"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKdFAiX0AAQoUP.jpg"
+            "https://pbs.twimg.com/media/ELOJff_XUAEpkF8.jpg"
         ],
-        "replies_count":14,
-        "retweets_count":92,
-        "likes_count":559,
+        "replies_count":1,
+        "retweets_count":6,
+        "likes_count":44,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189685962684665857",
+        "link":"https://twitter.com/SneakerNews/status/1203456701585874944",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203449183216246786,
+        "conversation_id":"1203449183216246786",
+        "created_at":1575759618000,
+        "date":"2019-12-07",
+        "time":"15:00:18",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The all-over CDG print finds its way to the Vans Lampin\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2LhBCs9"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELOCp4mXUAAKjmz.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":3,
+        "likes_count":67,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203449183216246786",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203441607854432256,
+        "conversation_id":"1203441607854432256",
+        "created_at":1575757812000,
+        "date":"2019-12-07",
+        "time":"14:30:12",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Canada's Haven shoots their shot at the New Balance 990v5\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2rQRV8g"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELN7w8HWsAInN-_.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":2,
+        "likes_count":29,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203441607854432256",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203434016344608768,
+        "conversation_id":"1203434016344608768",
+        "created_at":1575756002000,
+        "date":"2019-12-07",
+        "time":"14:00:02",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Sorry -- these Nike ACG Mocs are @unionlosangeles exclusive\n\n ",
+        "mentions":[
+            "unionlosangeles"
+        ],
+        "urls":[
+            "https://snkrne.ws/2qXPpxg"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELN03DUWoAE3pvo.jpg"
+        ],
+        "replies_count":4,
+        "retweets_count":4,
+        "likes_count":27,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203434016344608768",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -679,331 +425,37 @@
                 "username":"SneakerNews"
             },
             {
-                "user_id":"39440317",
-                "username":"TheShoeSurgeon"
+                "user_id":"80519878",
+                "username":"unionlosangeles"
             }
         ],
         "retweet_date":""
     },
     {
-        "id":1189678479601733634,
-        "conversation_id":"1189678479601733634",
-        "created_at":1572476427000,
-        "date":"2019-10-30",
-        "time":"16:00:27",
-        "timezone":"PDT",
+        "id":1203426490613940226,
+        "conversation_id":"1203426490613940226",
+        "created_at":1575754208000,
+        "date":"2019-12-07",
+        "time":"13:30:08",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Nike's Air Force 1 High Gore-Tex is releasing in a Phantom colorway. Releasing this Friday, 11/1  ",
+        "tweet":"Does Matthew M Williams have more Nike Free TR3s in the works?\n\n ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2kDsAvs"
+            "https://snkrne.ws/380Ptg4"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIKWRa8XsAEfEg6.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":17,
-        "likes_count":112,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189678479601733634",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189666292422397953,
-        "conversation_id":"1189666292422397953",
-        "created_at":1572473521000,
-        "date":"2019-10-30",
-        "time":"15:12:01",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"As it turns out, Olivia Kim's rave-inspired AF1 from the \"No Cover\" pack is also inspired by Betty Boop. Comes with special hangtag\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2WzOpuA"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIKLMDyWoAAKd18.jpg"
-        ],
-        "replies_count":5,
-        "retweets_count":28,
-        "likes_count":77,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189666292422397953",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189665498230865921,
-        "conversation_id":"1189665498230865921",
-        "created_at":1572473332000,
-        "date":"2019-10-30",
-        "time":"15:08:52",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Nike made a Friends and Family edition of Olivia Kim's Air Force 1 with Betty Boop's face embroidered on the heel\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2WzOpuA"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIKKdy2XsAARMOH.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":37,
-        "likes_count":265,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189665498230865921",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189656774749671429,
-        "conversation_id":"1189656774749671429",
-        "created_at":1572471252000,
-        "date":"2019-10-30",
-        "time":"14:34:12",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Jordan Why Not Zer0.2 PE \u201cMummy\u201d will be available tomorrow for select NikePlus members  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/33dnFCk"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIKCiD7WwAAXew9.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":6,
-        "likes_count":46,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189656774749671429",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189651958782672896,
-        "conversation_id":"1189651958782672896",
-        "created_at":1572470104000,
-        "date":"2019-10-30",
-        "time":"14:15:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Reversi Taxi 12s drop tomorrow in US, 11/7 in Europe. Store list:  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2Piiuxc"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJ-JqyWkAAF1qO.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":13,
-        "likes_count":69,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189651958782672896",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189650309909565440,
-        "conversation_id":"1189650309909565440",
-        "created_at":1572469711000,
-        "date":"2019-10-30",
-        "time":"14:08:31",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"END and New Balance team up together to give the 860v2 a multi-colored neon makeover. Available on 11/1  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2N1msbH"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJ8pulWoAEEUh2.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":5,
-        "likes_count":25,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189650309909565440",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189644410339971072,
-        "conversation_id":"1189644410339971072",
-        "created_at":1572468304000,
-        "date":"2019-10-30",
-        "time":"13:45:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Update: the UNDERCOVER x Air Max 720 release date has been pushed back to November 30th.\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2pdWTeI"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJ3SV3XYAA5gW7.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":14,
-        "likes_count":84,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189644410339971072",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189641895313625089,
-        "conversation_id":"1189641895313625089",
-        "created_at":1572467704000,
-        "date":"2019-10-30",
-        "time":"13:35:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"A new sequoia and olive colorway of the Nike Air Max 98 is available now    ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2pqMXhT"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJ0_8fWsAM10Zr.jpg"
+            "https://pbs.twimg.com/media/ELNuA_1XkAAbBTm.jpg"
         ],
         "replies_count":0,
         "retweets_count":7,
         "likes_count":58,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189641895313625089",
+        "link":"https://twitter.com/SneakerNews/status/1203426490613940226",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -1022,962 +474,30 @@
         "retweet_date":""
     },
     {
-        "id":1189638075078578183,
-        "conversation_id":"1189638075078578183",
-        "created_at":1572466794000,
-        "date":"2019-10-30",
-        "time":"13:19:54",
-        "timezone":"PDT",
+        "id":1203418937205121024,
+        "conversation_id":"1203418937205121024",
+        "created_at":1575752407000,
+        "date":"2019-12-07",
+        "time":"13:00:07",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Ahead of the November 2nd release, let's take a closer look at the Air Jordan 1",
-        "mentions":[],
-        "urls":[],
-        "photos":[],
-        "replies_count":12,
-        "retweets_count":110,
-        "likes_count":643,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189638075078578183",
-        "retweet":false,
-        "quote_url":"",
-        "video":1,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189630326827573248,
-        "conversation_id":"1189630326827573248",
-        "created_at":1572464946000,
-        "date":"2019-10-30",
-        "time":"12:49:06",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Sneaker News x @wilsonbasktball Miniature basketball. Releasing in limited quantities tomorrow, 10/31, completely free (just pay shipping, $8). Must subscribe to our email newsletter to get access:  ",
-        "mentions":[
-            "wilsonbasktball"
-        ],
-        "urls":[
-            "https://snkrne.ws/2tZTVJz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJqel3XYAAQo0-.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":1,
-        "likes_count":16,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189630326827573248",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"117220541",
-                "username":"WilsonBasktball"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189629792456527872,
-        "conversation_id":"1189629792456527872",
-        "created_at":1572464819000,
-        "date":"2019-10-30",
-        "time":"12:46:59",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Here's a store list for the upcoming Air Fear Of God 1 \"Oatmeal\"\n ",
+        "tweet":"Clean aqua blues make their way to the Air Jordan 1 Mid \n\n ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2C0gX6I"
+            "https://snkrne.ws/35YMROf"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIJp_exX4AAc0K2.jpg"
+            "https://pbs.twimg.com/media/ELNnJT-WsAAJCbS.jpg"
         ],
         "replies_count":1,
-        "retweets_count":13,
-        "likes_count":102,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189629792456527872",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189629325072621570,
-        "conversation_id":"1189629325072621570",
-        "created_at":1572464707000,
-        "date":"2019-10-30",
-        "time":"12:45:07",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"2020 already has 9 different adidas Yeezy Boost 350 v2s confirmed to release  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PwrUF5"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJpkPkWsAAH4UV.jpg"
-        ],
-        "replies_count":20,
-        "retweets_count":34,
-        "likes_count":211,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189629325072621570",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189619226887282691,
-        "conversation_id":"1189619226887282691",
-        "created_at":1572462300000,
-        "date":"2019-10-30",
-        "time":"12:05:00",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"What're your thoughts on the upcoming adidas NMD V2?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/320fzMj"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJgYcpXYAAFHwA.jpg"
-        ],
-        "replies_count":12,
-        "retweets_count":12,
-        "likes_count":128,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189619226887282691",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189611696119267329,
-        "conversation_id":"1189611696119267329",
-        "created_at":1572460504000,
-        "date":"2019-10-30",
-        "time":"11:35:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike Air Max Dia for women returns with a multi-colored translucent upper\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2Wpz0Nl"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJZiHJX4AcBw77.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":7,
-        "likes_count":27,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189611696119267329",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189610862488834050,
-        "conversation_id":"1189610862488834050",
-        "created_at":1572460306000,
-        "date":"2019-10-30",
-        "time":"11:31:46",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Air Jordan 1 Flyease now up on Nikestore. Check for Early Access \n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/36eLFHt"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJYxmZWsAIxbnB.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":6,
-        "likes_count":41,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189610862488834050",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189605357557030912,
-        "conversation_id":"1189605357557030912",
-        "created_at":1572458993000,
-        "date":"2019-10-30",
-        "time":"11:09:53",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"A closer look at @PUSHA_T's adidas Ozweego \"King Push\" dropping on 11/15  ",
-        "mentions":[
-            "pusha_t"
-        ],
-        "urls":[
-            "https://snkrne.ws/2Wt9RBk"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJTxK7WwAE7k_L.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":22,
-        "likes_count":83,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189605357557030912",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"28035260",
-                "username":"PUSHA_T"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189596789130838021,
-        "conversation_id":"1189596789130838021",
-        "created_at":1572456950000,
-        "date":"2019-10-30",
-        "time":"10:35:50",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Grab an official look at this season's Nike Air Force 1 \"Just Do It\"  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/330Gg4z"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJL-bdWkAEPYhk.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":6,
-        "likes_count":100,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189596789130838021",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189588570815827968,
-        "conversation_id":"1189588570815827968",
-        "created_at":1572454991000,
-        "date":"2019-10-30",
-        "time":"10:03:11",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"adidas is enhancing the Ultra Boost with full leather uppers; Are you fan of this new look?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2JAyWoA"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIJEgEBWoAAcvGr.jpg"
-        ],
-        "replies_count":8,
-        "retweets_count":7,
-        "likes_count":60,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189588570815827968",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189580936607916032,
-        "conversation_id":"1189580936607916032",
-        "created_at":1572453171000,
-        "date":"2019-10-30",
-        "time":"09:32:51",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike Kyrie 5 \"Keep Sue Fresh\" officially releases on 11/2  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PxKVY2"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EII9jrPXkAAcu3C.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":18,
-        "likes_count":110,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189580936607916032",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189574739863453696,
-        "conversation_id":"1189574739863453696",
-        "created_at":1572451693000,
-        "date":"2019-10-30",
-        "time":"09:08:13",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Sneakersnstuff continues their 20th anniversary celebrations with an LA-inspired capsule with adidas Consortium  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/36fUm4a"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EII369yW4AEYqsv.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":4,
-        "likes_count":34,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189574739863453696",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189566545531461632,
-        "conversation_id":"1189566545531461632",
-        "created_at":1572449740000,
-        "date":"2019-10-30",
-        "time":"08:35:40",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Shoe Surgeon reworks these custom Air Jordan 1s with a \"Freddy\" SB Dunk makeover  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/34jHDf7"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIIweA9XkAIqhu4.jpg"
-        ],
-        "replies_count":21,
-        "retweets_count":179,
-        "likes_count":1130,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189566545531461632",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189558904369434625,
-        "conversation_id":"1189558904369434625",
-        "created_at":1572447918000,
-        "date":"2019-10-30",
-        "time":"08:05:18",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"adidas Originals' Gore-Tex INFINIUM Pack is slated for a release on November 5th   ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qXuv0N"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIIphPKX4AAph9E.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":2,
-        "likes_count":28,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189558904369434625",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189497292547600389,
-        "conversation_id":"1189497292547600389",
-        "created_at":1572433228000,
-        "date":"2019-10-30",
-        "time":"04:00:28",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike KD 12 gets dressed with a \"Blue Gaze\" makeover. Releasing 11/1  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2Neigo4"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHxe8-XUAAhXZA.jpg"
-        ],
-        "replies_count":2,
-        "retweets_count":18,
-        "likes_count":115,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189497292547600389",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189489719467491328,
-        "conversation_id":"1189489719467491328",
-        "created_at":1572431423000,
-        "date":"2019-10-30",
-        "time":"03:30:23",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Grab a detailed look at the upcoming Air Jordan 4 WNTR set to release on 12/2  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2MZhMVg"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHqmHaWoAAU4AN.jpg"
-        ],
-        "replies_count":4,
-        "retweets_count":26,
-        "likes_count":276,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189489719467491328",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189482147079446529,
-        "conversation_id":"1189482147079446529",
-        "created_at":1572429618000,
-        "date":"2019-10-30",
-        "time":"03:00:18",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Is the updated look of the adidas Yeezy 500 better than the original?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/354K6en"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHjtYkXUAEIz2j.jpg"
-        ],
-        "replies_count":5,
-        "retweets_count":7,
-        "likes_count":64,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189482147079446529",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189474592634658816,
-        "conversation_id":"1189474592634658816",
-        "created_at":1572427816000,
-        "date":"2019-10-30",
-        "time":"02:30:16",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"A detailed look at the Air Jordan 1 Retro High OG \u201cFearless\u201d dropping this week  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/33TIgMe"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHc1ptX4AIv87x.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":49,
-        "likes_count":416,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189474592634658816",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189467033836146689,
-        "conversation_id":"1189467033836146689",
-        "created_at":1572426014000,
-        "date":"2019-10-30",
-        "time":"02:00:14",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Odell Beckham Jr.\u2019s Nike Air Max 720 is returning in a clean black colorway  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PqaEBB"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHV9pnWkAAocqI.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":8,
-        "likes_count":62,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189467033836146689",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189459475457101824,
-        "conversation_id":"1189459475457101824",
-        "created_at":1572424212000,
-        "date":"2019-10-30",
-        "time":"01:30:12",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"More colorways of the Instapump Fury Boost are dropping next month. Which one is your favorite?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2LLRQKW"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHPFuaX0AAdUdG.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":5,
-        "likes_count":39,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189459475457101824",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189452103145721857,
-        "conversation_id":"1189452103145721857",
-        "created_at":1572422454000,
-        "date":"2019-10-30",
-        "time":"01:00:54",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Olivia Kim pulls inspiration from Jamaican dancehall culture for her Nike Air Max 98 collaboration  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/3672vb6"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIHIYi-X4AUx06a.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":10,
-        "likes_count":66,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189452103145721857",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189421750750273537,
-        "conversation_id":"1189421750750273537",
-        "created_at":1572415218000,
-        "date":"2019-10-29",
-        "time":"23:00:18",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Waffle Racer SP by Off-White and Nike is dropping in December. What's your favorite colorway?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2McHKUF"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIGsxycX0AAMGKJ.jpg"
-        ],
-        "replies_count":2,
-        "retweets_count":12,
-        "likes_count":72,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189421750750273537",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189414133399195650,
-        "conversation_id":"1189414133399195650",
-        "created_at":1572413402000,
-        "date":"2019-10-29",
-        "time":"22:30:02",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"This Nike Air Force 1 Vandalized could have possibly been inspired by the Joker  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PpTW5l"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIGl2eMX4AAB4lB.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":17,
+        "retweets_count":19,
         "likes_count":165,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189414133399195650",
+        "link":"https://twitter.com/SneakerNews/status/1203418937205121024",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -1996,30 +516,30 @@
         "retweet_date":""
     },
     {
-        "id":1189406609497350146,
-        "conversation_id":"1189406609497350146",
-        "created_at":1572411608000,
-        "date":"2019-10-29",
-        "time":"22:00:08",
-        "timezone":"PDT",
+        "id":1203411369560887296,
+        "conversation_id":"1203411369560887296",
+        "created_at":1575750603000,
+        "date":"2019-12-07",
+        "time":"12:30:03",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"The Nike Kobe 4 Protro \"Wizenard\" PE is scheduled to release on 12/1  ",
+        "tweet":"Keep a little piece of Ekiden for yourself with this Nike Zoom VaporFly NEXT%\n\n ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/35i3NPX"
+            "https://snkrne.ws/34HbBdx"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIGfAg0WsAEjFi6.jpg"
+            "https://pbs.twimg.com/media/ELNgQ1TW4AAtxqt.jpg"
         ],
         "replies_count":0,
-        "retweets_count":12,
-        "likes_count":88,
+        "retweets_count":8,
+        "likes_count":41,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189406609497350146",
+        "link":"https://twitter.com/SneakerNews/status/1203411369560887296",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2038,30 +558,30 @@
         "retweet_date":""
     },
     {
-        "id":1189399072794390529,
-        "conversation_id":"1189399072794390529",
-        "created_at":1572409811000,
-        "date":"2019-10-29",
-        "time":"21:30:11",
-        "timezone":"PDT",
+        "id":1203403840441266181,
+        "conversation_id":"1203403840441266181",
+        "created_at":1575748808000,
+        "date":"2019-12-07",
+        "time":"12:00:08",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"The Air Jordan 12 \"Reverse Taxi\" is dropping this week, see where you can pick up a pair  ",
+        "tweet":"These Nike Air Force 1 Rebel XXs are a teddy bear for your feet\n\n ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2Piiuxc"
+            "https://snkrne.ws/33PLzn3"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIGYJ1ZW4AAfN1B.jpg"
+            "https://pbs.twimg.com/media/ELNZakZWsAAaRsx.jpg"
         ],
-        "replies_count":0,
-        "retweets_count":7,
-        "likes_count":65,
+        "replies_count":21,
+        "retweets_count":11,
+        "likes_count":71,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189399072794390529",
+        "link":"https://twitter.com/SneakerNews/status/1203403840441266181",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2080,32 +600,326 @@
         "retweet_date":""
     },
     {
-        "id":1189395257747738625,
-        "conversation_id":"1189395257747738625",
-        "created_at":1572408901000,
-        "date":"2019-10-29",
-        "time":"21:15:01",
-        "timezone":"PDT",
+        "id":1203396317587918848,
+        "conversation_id":"1203396317587918848",
+        "created_at":1575747014000,
+        "date":"2019-12-07",
+        "time":"11:30:14",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"ICYMI: Sneaker News x @wilsonbasktball Miniature basketball. Dropping Thursday, 10/31, completely free (just pay shipping, $8). Limited Quantities. Must subscribe to our newsletter for access:  ",
-        "mentions":[
-            "wilsonbasktball"
-        ],
+        "tweet":"Triple Red is back on the Air Max 270\n\n ",
+        "mentions":[],
         "urls":[
-            "https://snkrne.ws/2tZTVJz"
+            "https://snkrne.ws/2rWApzI"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIGUrxJXkAU48VD.jpg"
+            "https://pbs.twimg.com/media/ELNSkseX0AAYuPI.jpg"
         ],
         "replies_count":0,
-        "retweets_count":2,
+        "retweets_count":11,
+        "likes_count":75,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203396317587918848",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203388719941738496,
+        "conversation_id":"1203388719941738496",
+        "created_at":1575745203000,
+        "date":"2019-12-07",
+        "time":"11:00:03",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The adidas Crazy BYW goes full orange\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2s3b5YF"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELNLqbSXYAI3Hzr.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":10,
+        "likes_count":31,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203388719941738496",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203381225412583424,
+        "conversation_id":"1203381225412583424",
+        "created_at":1575743416000,
+        "date":"2019-12-07",
+        "time":"10:30:16",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Woodland camo turns the Reebok Instapump Fury Into a hunter\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2YmV6B1"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELNE2N3W4AQOIKx.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":8,
         "likes_count":17,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189395257747738625",
+        "link":"https://twitter.com/SneakerNews/status/1203381225412583424",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203373717583257600,
+        "conversation_id":"1203373717583257600",
+        "created_at":1575741626000,
+        "date":"2019-12-07",
+        "time":"10:00:26",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Mint greens dress up the latest pair of adidas 4D-5923s\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2RktLxX"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELM-BMSX0AMH8Pm.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":11,
+        "likes_count":71,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203373717583257600",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203366064245092352,
+        "conversation_id":"1203366064245092352",
+        "created_at":1575739801000,
+        "date":"2019-12-07",
+        "time":"09:30:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Loopwheeler celebrates their 20th anniversary with a Nike Air Max 90 and 95\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/35UfbRK"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELM3Dt7XsAEBEuK.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":7,
+        "likes_count":39,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203366064245092352",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203358515026374656,
+        "conversation_id":"1203358515026374656",
+        "created_at":1575738001000,
+        "date":"2019-12-07",
+        "time":"09:00:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The adidas Yeezy Boost 350 v2 is getting a \"Tailgate\" colorway in 2020\n\n ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2DBdNr2"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELMwMTUWkAAhjwb.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":11,
+        "likes_count":75,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203358515026374656",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203283178087231488,
+        "conversation_id":"1203283178087231488",
+        "created_at":1575720040000,
+        "date":"2019-12-07",
+        "time":"04:00:40",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Nike Adapt Huarache adds a racer blue colorway to its lineup on 12/12  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2rVAzYf"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLrrG4WwAABthu.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":3,
+        "likes_count":49,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203283178087231488",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203275479647707136,
+        "conversation_id":"1203275479647707136",
+        "created_at":1575718204000,
+        "date":"2019-12-07",
+        "time":"03:30:04",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Detailed look at @sneakersnstuff's exclusive Jordan collection dropping on 12/18  ",
+        "mentions":[
+            "sneakersnstuff"
+        ],
+        "urls":[
+            "https://snkrne.ws/2OUz59z"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLkq_SWoAIIeSu.jpg"
+        ],
+        "replies_count":3,
+        "retweets_count":9,
+        "likes_count":89,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203275479647707136",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2121,37 +935,685 @@
                 "username":"SneakerNews"
             },
             {
-                "user_id":"117220541",
-                "username":"WilsonBasktball"
+                "user_id":"22011681",
+                "username":"sneakersnstuff"
             }
         ],
         "retweet_date":""
     },
     {
-        "id":1189391611496730624,
-        "conversation_id":"1189391611496730624",
-        "created_at":1572408032000,
-        "date":"2019-10-29",
-        "time":"21:00:32",
-        "timezone":"PDT",
+        "id":1203267941816557568,
+        "conversation_id":"1203267941816557568",
+        "created_at":1575716407000,
+        "date":"2019-12-07",
+        "time":"03:00:07",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"The adidas Ozweego \"Kingslayer\" by Pusha T and Call of Duty is limited to only 300 pairs  ",
+        "tweet":"First thoughts on the adidas Yeezy 700 MNVN \"Phosphur\"?  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2p8YSAE"
+            "https://snkrne.ws/2Ponq1R"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIGRXhVXYAAxItg.jpg"
+            "https://pbs.twimg.com/media/ELLd0QRXYAIGwJT.jpg"
+        ],
+        "replies_count":3,
+        "retweets_count":13,
+        "likes_count":114,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203267941816557568",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203260404463493121,
+        "conversation_id":"1203260404463493121",
+        "created_at":1575714610000,
+        "date":"2019-12-07",
+        "time":"02:30:10",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Here's where you can cop the Nike Dunk Low \"Viotech\" dropping on 12/10  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/362BIvM"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLW9fqXYAM61J3.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":28,
+        "likes_count":197,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203260404463493121",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203252821291937792,
+        "conversation_id":"1203252821291937792",
+        "created_at":1575712802000,
+        "date":"2019-12-07",
+        "time":"02:00:02",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Detailed look at the adidas Yeezy Boost 700 \u201cCarbon Blue\u201d dropping on December 18th  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2OJRHsC"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLQEHMX0AE-Nua.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":6,
+        "likes_count":49,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203252821291937792",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203245319502356480,
+        "conversation_id":"1203245319502356480",
+        "created_at":1575711014000,
+        "date":"2019-12-07",
+        "time":"01:30:14",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"CDG and Vans remix the Lampin for an official release on 12/11  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2LhBCs9"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLJPcgWkAA5XGf.jpg"
         ],
         "replies_count":1,
+        "retweets_count":5,
+        "likes_count":61,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203245319502356480",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203237908225888256,
+        "conversation_id":"1203237908225888256",
+        "created_at":1575709247000,
+        "date":"2019-12-07",
+        "time":"01:00:47",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"List of all of the Jordan Retros confirmed so far for 2020  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/31UWiwz"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELLCgAtWoAA_9Ti.png"
+        ],
+        "replies_count":1,
+        "retweets_count":24,
+        "likes_count":189,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203237908225888256",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203220104038830080,
+        "conversation_id":"1203220104038830080",
+        "created_at":1575705002000,
+        "date":"2019-12-06",
+        "time":"23:50:02",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Almost live with global shipping: Air Jordan 1 High OG \"Zoom\" #AD\n\nOffspring  https://snkrne.ws/38d0ZoT\u00a0\nBSTN  https://snkrne.ws/2LvYjJh\u00a0 \nSolebox  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/38d0ZoT",
+            "https://snkrne.ws/2LvYjJh",
+            "https://snkrne.ws/2s1Q94r"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKyTudXsAAjJM-.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":12,
+        "likes_count":71,
+        "hashtags":[
+            "#ad"
+        ],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203220104038830080",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203207535618072576,
+        "conversation_id":"1203207535618072576",
+        "created_at":1575702005000,
+        "date":"2019-12-06",
+        "time":"23:00:05",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Now that we have an official look, what're your thoughts on the upcoming Air Jordan 1 by Dior?  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2sHX3fE"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKm4KFX0AAGQSR.jpg"
+        ],
+        "replies_count":42,
+        "retweets_count":58,
+        "likes_count":452,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203207535618072576",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203199969290788864,
+        "conversation_id":"1203199969290788864",
+        "created_at":1575700201000,
+        "date":"2019-12-06",
+        "time":"22:30:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Stadium Goods announces new Chicago store location opening Spring 2020  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2YpHEwn"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKf_uUX0AE9cyM.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":13,
+        "likes_count":72,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203199969290788864",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203192417526136832,
+        "conversation_id":"1203192417526136832",
+        "created_at":1575698401000,
+        "date":"2019-12-06",
+        "time":"22:00:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The adidas Y-3 Runner 4D will make its debut on 12/10 for $600 USD  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2YmzLaI"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKZIKIXYAAP4cy.jpg"
+        ],
+        "replies_count":3,
+        "retweets_count":4,
+        "likes_count":49,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203192417526136832",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203184875899146240,
+        "conversation_id":"1203184875899146240",
+        "created_at":1575696603000,
+        "date":"2019-12-06",
+        "time":"21:30:03",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Closer look at the Air Jordan 4 \"Black Cat\" set to return on 2/22  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/34YbCKj"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKSRLaXUAA9P3p.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":79,
+        "likes_count":656,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203184875899146240",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203177469739700224,
+        "conversation_id":"1203177469739700224",
+        "created_at":1575694837000,
+        "date":"2019-12-06",
+        "time":"21:00:37",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":".@CarharttWIP teams with Converse for two exclusive colorways of the Chuck 70 Low  ",
+        "mentions":[
+            "carharttwip"
+        ],
+        "urls":[
+            "https://snkrne.ws/34Xc6jP"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKLiFDWoAAYcsT.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":6,
+        "likes_count":36,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203177469739700224",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"18932351",
+                "username":"CarharttWIP"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203169793995616256,
+        "conversation_id":"1203169793995616256",
+        "created_at":1575693007000,
+        "date":"2019-12-06",
+        "time":"20:30:07",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Here's where you can cop the Nike Kyrie 6 \"Enlightenment\" tomorrow  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2DNYVWe"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELKEjSZW4AAQUj1.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":6,
+        "likes_count":52,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203169793995616256",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203162319846543360,
+        "conversation_id":"1203162319846543360",
+        "created_at":1575691225000,
+        "date":"2019-12-06",
+        "time":"20:00:25",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Nike SB's upcoming \"Hack Pack\" merges two skate classics into one  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/34VsoJQ"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJ9wOyWkAEBf74.jpg"
+        ],
+        "replies_count":6,
+        "retweets_count":49,
+        "likes_count":404,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203162319846543360",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203154669880664064,
+        "conversation_id":"1203154669880664064",
+        "created_at":1575689401000,
+        "date":"2019-12-06",
+        "time":"19:30:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":".@SOLEFLY has another Jordan collaboration on the way  ",
+        "mentions":[
+            "solefly"
+        ],
+        "urls":[
+            "https://snkrne.ws/35Wq59y"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJ2y8cXUAAssRk.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":16,
+        "likes_count":61,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203154669880664064",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"69078182",
+                "username":"SOLEFLY"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203147257492758533,
+        "conversation_id":"1203147257492758533",
+        "created_at":1575687634000,
+        "date":"2019-12-06",
+        "time":"19:00:34",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"A list of all of the confirmed adidas Yeezys dropping this month  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2TCp0xn"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJwDcfXsAASJSu.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":8,
+        "likes_count":69,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203147257492758533",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203139581715066881,
+        "conversation_id":"1203139581715066881",
+        "created_at":1575685804000,
+        "date":"2019-12-06",
+        "time":"18:30:04",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Detailed look at the Reebok Experiment 4 Trail Fury \u201cGlory\u201d by @pyermoss dropping tomorrow  ",
+        "mentions":[
+            "pyermoss"
+        ],
+        "urls":[
+            "https://snkrne.ws/38fFcNq"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJpEs0WsAEztei.jpg"
+        ],
+        "replies_count":3,
         "retweets_count":9,
         "likes_count":73,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189391611496730624",
+        "link":"https://twitter.com/SneakerNews/status/1203139581715066881",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2165,203 +1627,39 @@
             {
                 "user_id":"16180874",
                 "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189383949908361216,
-        "conversation_id":"1189383949908361216",
-        "created_at":1572406206000,
-        "date":"2019-10-29",
-        "time":"20:30:06",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike LeBron 17 \"Red Carpet\" gets an all-red makeover. Releasing 11/15  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2pm4ho3"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIGKZjXXUAQ_G7O.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":9,
-        "likes_count":98,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189383949908361216",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
+            },
             {
-                "user_id":"16180874",
-                "username":"SneakerNews"
+                "user_id":"1128950437",
+                "username":"pyermoss"
             }
         ],
         "retweet_date":""
     },
     {
-        "id":1189376508164497408,
-        "conversation_id":"1189376508164497408",
-        "created_at":1572404431000,
-        "date":"2019-10-29",
-        "time":"20:00:31",
-        "timezone":"PDT",
+        "id":1203132056387145729,
+        "conversation_id":"1203132056387145729",
+        "created_at":1575684010000,
+        "date":"2019-12-06",
+        "time":"18:00:10",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"What're your thoughts on Nike's new Air Max 720 Horizon?  ",
+        "tweet":"Official look at Loopwheeler's Nike Air Max 95 dropping tomorrow  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2q2pFP6"
+            "https://snkrne.ws/2RqzBxE"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIGDoXoXUAIwodD.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":10,
-        "likes_count":55,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189376508164497408",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189368872669011968,
-        "conversation_id":"1189368872669011968",
-        "created_at":1572402611000,
-        "date":"2019-10-29",
-        "time":"19:30:11",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Take a closer look at Rockman (aka Megaman) and ASICS's collaboration dropping this week  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/32Fx71f"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIF8r6nXUAc-a1m.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":14,
-        "likes_count":90,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189368872669011968",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189361384536133632,
-        "conversation_id":"1189361384536133632",
-        "created_at":1572400825000,
-        "date":"2019-10-29",
-        "time":"19:00:25",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Kobe's latest AD 360 FF is closely similar to Serena Williams' \"Queen\" Blazer  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/32UUi7Y"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIF14EqW4AA2P1Y.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":7,
-        "likes_count":122,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189361384536133632",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189353781923893248,
-        "conversation_id":"1189353781923893248",
-        "created_at":1572399013000,
-        "date":"2019-10-29",
-        "time":"18:30:13",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Overkill\u2019s adidas ZX8000 \u201cNo Walls Needed\u201d double-pack will be limited to 1,989 units  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2peG975"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIFu9glW4AI-eEs.jpg"
+            "https://pbs.twimg.com/media/ELJiOpGWkAA0KD4.jpg"
         ],
         "replies_count":0,
-        "retweets_count":5,
-        "likes_count":30,
+        "retweets_count":10,
+        "likes_count":56,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189353781923893248",
+        "link":"https://twitter.com/SneakerNews/status/1203132056387145729",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2380,30 +1678,500 @@
         "retweet_date":""
     },
     {
-        "id":1189346201856073728,
-        "conversation_id":"1189346201856073728",
-        "created_at":1572397206000,
-        "date":"2019-10-29",
-        "time":"18:00:06",
-        "timezone":"PDT",
+        "id":1203124549757345792,
+        "conversation_id":"1203124549757345792",
+        "created_at":1575682220000,
+        "date":"2019-12-06",
+        "time":"17:30:20",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Feature and Vans are teaming up for a \"Sinners Club Part II\" collaboration set to drop at ComplexCon  ",
+        "tweet":"Lauren Halsey's Nike Air Force 1 High for Los Angeles officially drops tomrrow  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2Nljaip"
+            "https://snkrne.ws/2CAS4iC"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIFoERWXkAMz9ZY.jpg"
+            "https://pbs.twimg.com/media/ELJbZs5XkAEWB9h.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":22,
+        "likes_count":101,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203124549757345792",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203116950018306048,
+        "conversation_id":"1203116950018306048",
+        "created_at":1575680408000,
+        "date":"2019-12-06",
+        "time":"17:00:08",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Air Jordan 1 Retro High \"Zoom\" hits the shelves tomorrow  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2RxFDwm"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJUfXzW4AATM6A.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":13,
+        "likes_count":121,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203116950018306048",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203109379186319361,
+        "conversation_id":"1203109379186319361",
+        "created_at":1575678603000,
+        "date":"2019-12-06",
+        "time":"16:30:03",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Nike Air Force 1 \"Hand Wash Cold\" by @maniere_usa officially drops tomorrow  ",
+        "mentions":[
+            "maniere_usa"
+        ],
+        "urls":[
+            "https://snkrne.ws/2KyRvKj"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJNmrGW4AE_zNX.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":6,
+        "likes_count":70,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203109379186319361",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"2755332162",
+                "username":"maniere_usa"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203101823017598976,
+        "conversation_id":"1203101823017598976",
+        "created_at":1575676801000,
+        "date":"2019-12-06",
+        "time":"16:00:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Who's trying to get their hands on CLOT's Air Jordan 1 Mid tomorrow?  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2YqGEIp"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELJGu3HWkAAJgGX.jpg"
+        ],
+        "replies_count":12,
+        "retweets_count":30,
+        "likes_count":268,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203101823017598976",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203087862897528832,
+        "conversation_id":"1203087862897528832",
+        "created_at":1575673473000,
+        "date":"2019-12-06",
+        "time":"15:04:33",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Fifteen of our top sneaker stories from a crazy first week of December   ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2PgGZJm"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELI6CRgXUAAFvtN.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":1,
+        "likes_count":20,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203087862897528832",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203080293835575296,
+        "conversation_id":"1203080293835575296",
+        "created_at":1575671668000,
+        "date":"2019-12-06",
+        "time":"14:34:28",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Timeless white-on-white gets added to the Nike Air Force 1 Type  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2OYfcP5"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIzJspXkAAi3fs.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":26,
+        "likes_count":111,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203080293835575296",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203072787159638016,
+        "conversation_id":"1203072787159638016",
+        "created_at":1575669879000,
+        "date":"2019-12-06",
+        "time":"14:04:39",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Nike PG 4 Is is set to make its debut in January  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/353QcLW"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIsUwIXkAEcBiV.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":6,
+        "likes_count":63,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203072787159638016",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203065600567844865,
+        "conversation_id":"1203065600567844865",
+        "created_at":1575668165000,
+        "date":"2019-12-06",
+        "time":"13:36:05",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Reebok is dropping an InstaPump Fury colorway similar to their past Chanel collaboration  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2Ynnh2A"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIlycNXYAAgas_.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":11,
+        "likes_count":67,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203065600567844865",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203057359909801984,
+        "conversation_id":"1203057359909801984",
+        "created_at":1575666200000,
+        "date":"2019-12-06",
+        "time":"13:03:20",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Flight jacket themes arrive on this upcoming pair of the Air MX 720 818  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2Rr5OoD"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIeSwzWwAAu6CI.jpg"
+        ],
+        "replies_count":3,
+        "retweets_count":24,
+        "likes_count":170,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203057359909801984",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203047616713568257,
+        "conversation_id":"1203047616713568257",
+        "created_at":1575663878000,
+        "date":"2019-12-06",
+        "time":"12:24:38",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The adidas Yeezy Boost 700 MNVN \"Phosphor\" is dropping in Spring 2020  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2Ponq1R"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIVbpRW4AAUTC4.jpg"
+        ],
+        "replies_count":6,
+        "retweets_count":27,
+        "likes_count":165,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203047616713568257",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203045203638140928,
+        "conversation_id":"1203045203638140928",
+        "created_at":1575663302000,
+        "date":"2019-12-06",
+        "time":"12:15:02",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Nike Air Trainer SC emerges with pink quartz and olive accents   ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2PkmLOT"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELITPFLWkAA9gY1.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":16,
+        "likes_count":103,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203045203638140928",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203037679367204864,
+        "conversation_id":"1203037679367204864",
+        "created_at":1575661508000,
+        "date":"2019-12-06",
+        "time":"11:45:08",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":".@CarharttWIP links up with Converse for two exclusive takes of the Chuck 70 Low  ",
+        "mentions":[
+            "carharttwip"
+        ],
+        "urls":[
+            "https://snkrne.ws/34Xc6jP"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELIMZLbWoAAohLu.jpg"
         ],
         "replies_count":0,
         "retweets_count":5,
         "likes_count":29,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189346201856073728",
+        "link":"https://twitter.com/SneakerNews/status/1203037679367204864",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2417,119 +2185,41 @@
             {
                 "user_id":"16180874",
                 "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189338674238033922,
-        "conversation_id":"1189338674238033922",
-        "created_at":1572395411000,
-        "date":"2019-10-29",
-        "time":"17:30:11",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Take a closer look at the upcoming Air Jordan 6 \"DMP\" dropping on 1/25  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2Pm0Bxr"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIFhOKOW4AAOtr1.jpg"
-        ],
-        "replies_count":4,
-        "retweets_count":35,
-        "likes_count":250,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189338674238033922",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
+            },
             {
-                "user_id":"16180874",
-                "username":"SneakerNews"
+                "user_id":"18932351",
+                "username":"CarharttWIP"
             }
         ],
         "retweet_date":""
     },
     {
-        "id":1189331211849781249,
-        "conversation_id":"1189331211849781249",
-        "created_at":1572393632000,
-        "date":"2019-10-29",
-        "time":"17:00:32",
-        "timezone":"PDT",
+        "id":1203030137022943233,
+        "conversation_id":"1203030137022943233",
+        "created_at":1575659710000,
+        "date":"2019-12-06",
+        "time":"11:15:10",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"adidas travels to the galaxy far, far away for their Star Wars collaboration releasing throughout November  ",
-        "mentions":[],
+        "tweet":"The Reebok Experiment 4 Trail Fury \u201cGlory\u201d by @pyermoss releases tomorrow  ",
+        "mentions":[
+            "pyermoss"
+        ],
         "urls":[
-            "https://snkrne.ws/34amNyB"
+            "https://snkrne.ws/38fFcNq"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIFabzCWwAAyfFm.jpg"
+            "https://pbs.twimg.com/media/ELIFiKfWsAE_Jtl.jpg"
         ],
-        "replies_count":3,
-        "retweets_count":10,
-        "likes_count":42,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189331211849781249",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189323576509370370,
-        "conversation_id":"1189323576509370370",
-        "created_at":1572391811000,
-        "date":"2019-10-29",
-        "time":"16:30:11",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"An official look at the forthcoming Nike Kyrie 6. Is this Irving's best signature yet?   ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qMHAtz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIFTfXOX4AIVS1M.jpg"
-        ],
-        "replies_count":10,
-        "retweets_count":8,
+        "replies_count":1,
+        "retweets_count":13,
         "likes_count":62,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189323576509370370",
+        "link":"https://twitter.com/SneakerNews/status/1203030137022943233",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2543,84 +2233,87 @@
             {
                 "user_id":"16180874",
                 "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189316238918504448,
-        "conversation_id":"1189316238918504448",
-        "created_at":1572390062000,
-        "date":"2019-10-29",
-        "time":"16:01:02",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Just released with global shipping: adidas ZX4000 \"I Want I Can\" #AD\n\nAfew  https://snkrne.ws/2Js2iph\u00a0\nAllike  https://snkrne.ws/2Pr7ptD\u00a0 \nAsphalt  https://snkrne.ws/2pqxe2d\u00a0\n43  https://snkrne.ws/2NrdOm5\u00a0 \nBSTN  https://snkrne.ws/2Wqbn7h\u00a0\nOverki",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2Js2iph",
-            "https://snkrne.ws/2Pr7ptD",
-            "https://snkrne.ws/2pqxe2d",
-            "https://snkrne.ws/2NrdOm5",
-            "https://snkrne.ws/2Wqbn7h",
-            "http://bit.ly/2WoTzcu"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIFM0RBX0AEIuNI.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":2,
-        "likes_count":25,
-        "hashtags":[
-            "#ad"
-        ],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189316238918504448",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
+            },
             {
-                "user_id":"16180874",
-                "username":"SneakerNews"
+                "user_id":"1128950437",
+                "username":"pyermoss"
             }
         ],
         "retweet_date":""
     },
     {
-        "id":1189316065198825472,
-        "conversation_id":"1189316065198825472",
-        "created_at":1572390021000,
-        "date":"2019-10-29",
-        "time":"16:00:21",
-        "timezone":"PDT",
+        "id":1203026912689479682,
+        "conversation_id":"1203026912689479682",
+        "created_at":1575658941000,
+        "date":"2019-12-06",
+        "time":"11:02:21",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Release date: UNDERCOVER x Air Max 720 dropping on 10/31\n ",
-        "mentions":[],
+        "tweet":".@stadiumgoods announces Chicago retail location opening in Spring 2020  ",
+        "mentions":[
+            "stadiumgoods"
+        ],
         "urls":[
-            "https://snkrne.ws/2pdWTeI"
+            "https://snkrne.ws/2YpHEwn"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIFMqI1XUAExe1U.jpg"
+            "https://pbs.twimg.com/media/ELICmeQWoAIOVTC.jpg"
         ],
-        "replies_count":5,
-        "retweets_count":40,
-        "likes_count":433,
+        "replies_count":2,
+        "retweets_count":19,
+        "likes_count":82,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189316065198825472",
+        "link":"https://twitter.com/SneakerNews/status/1203026912689479682",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"2670489769",
+                "username":"stadiumgoods"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1203004874637664257,
+        "conversation_id":"1203004874637664257",
+        "created_at":1575653687000,
+        "date":"2019-12-06",
+        "time":"09:34:47",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Detailed look at the Air Jordan 4 \"Black Cat\" set to make a return early 2020  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/34YbCKj"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELHujt9WkAApYBR.jpg"
+        ],
+        "replies_count":2,
+        "retweets_count":56,
+        "likes_count":382,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1203004874637664257",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -2639,420 +2332,414 @@
         "retweet_date":""
     },
     {
-        "id":1189312221962215424,
-        "conversation_id":"1189312221962215424",
-        "created_at":1572389104000,
-        "date":"2019-10-29",
-        "time":"15:45:04",
-        "timezone":"PDT",
+        "id":1202996952234938368,
+        "conversation_id":"1202996952234938368",
+        "created_at":1575651798000,
+        "date":"2019-12-06",
+        "time":"09:03:18",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"See what Kanye West and adidas have confirmed for their upcoming Yeezy releases  ",
+        "tweet":"adidas officially confirms the 12/16 release of the Yeezy 500 High \"Slate\"  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/38dDegn"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELHnWkzX0AI56CW.jpg"
+        ],
+        "replies_count":4,
+        "retweets_count":11,
+        "likes_count":79,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202996952234938368",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202989425329934337,
+        "conversation_id":"1202989425329934337",
+        "created_at":1575650004000,
+        "date":"2019-12-06",
+        "time":"08:33:24",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"adidas Y-3 reveals their latest Runner 4D set to make its debut on 12/10   ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2YmzLaI"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELHggdUXUAAnXeU.jpg"
+        ],
+        "replies_count":1,
+        "retweets_count":5,
+        "likes_count":51,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202989425329934337",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202981691482103813,
+        "conversation_id":"1202981691482103813",
+        "created_at":1575648160000,
+        "date":"2019-12-06",
+        "time":"08:02:40",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Air Jordan 1 Retro High OG \"Zoom\" releases tomorrow. Is this the best out of the \"Fearless Ones\" collection?  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2RxFDwm"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELHZeR3WkAgg9nN.jpg"
+        ],
+        "replies_count":7,
+        "retweets_count":26,
+        "likes_count":185,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202981691482103813",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202920684059533312,
+        "conversation_id":"1202920684059533312",
+        "created_at":1575633614000,
+        "date":"2019-12-06",
+        "time":"04:00:14",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Reebok Question Mid will make its return in a buttery grey suede next month  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2DNHVzo"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELGh_LKWsAAYFQE.jpg"
+        ],
+        "replies_count":4,
+        "retweets_count":8,
+        "likes_count":74,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202920684059533312",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202913112917184515,
+        "conversation_id":"1202913112917184515",
+        "created_at":1575631809000,
+        "date":"2019-12-06",
+        "time":"03:30:09",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Three colorways of the Nike Waffle Racer SP by Off-White are dropping on 12/12. Store list:  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2ORbEhq"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELGbGfPXUAE7kps.jpg"
+        ],
+        "replies_count":3,
+        "retweets_count":6,
+        "likes_count":46,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202913112917184515",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202905536628510721,
+        "conversation_id":"1202905536628510721",
+        "created_at":1575630003000,
+        "date":"2019-12-06",
+        "time":"03:00:03",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"UNION is dropping the Nike ACG Moc 3.0 in an exclusive \u201cCheetah\u201d colorway on 12/9  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/2qXPpxg"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELGUNd1X0AogXDO.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":3,
+        "likes_count":20,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202905536628510721",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202897980120014850,
+        "conversation_id":"1202897980120014850",
+        "created_at":1575628201000,
+        "date":"2019-12-06",
+        "time":"02:30:01",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Detailed look at the Air Jordan 4 \"Winter\" now dropping on 12/21  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/33MOqx7"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELGNVo1WoAAFSpe.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":21,
+        "likes_count":130,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202897980120014850",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202890493866233857,
+        "conversation_id":"1202890493866233857",
+        "created_at":1575626417000,
+        "date":"2019-12-06",
+        "time":"02:00:17",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Pigalle is dropping a collaborative basketball collection with Nike and Converse early next year  ",
+        "mentions":[],
+        "urls":[
+            "https://snkrne.ws/34Mf1M2"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELGGh5cXYAAGM_S.jpg"
+        ],
+        "replies_count":0,
+        "retweets_count":7,
+        "likes_count":28,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202890493866233857",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202882951136067591,
+        "conversation_id":"1202882951136067591",
+        "created_at":1575624618000,
+        "date":"2019-12-06",
+        "time":"01:30:18",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"The Reebok Experiment 4 Trail Fury \"Glory\" by @pyermoss is releasing on 12/7  ",
+        "mentions":[
+            "pyermoss"
+        ],
+        "urls":[
+            "https://snkrne.ws/2D9rkpu"
+        ],
+        "photos":[
+            "https://pbs.twimg.com/media/ELF_q1tWwAAjww0.jpg"
+        ],
+        "replies_count":4,
+        "retweets_count":12,
+        "likes_count":76,
+        "hashtags":[],
+        "cashtags":[],
+        "link":"https://twitter.com/SneakerNews/status/1202882951136067591",
+        "retweet":false,
+        "quote_url":"",
+        "video":0,
+        "near":"",
+        "geo":"",
+        "source":"",
+        "user_rt_id":"",
+        "user_rt":"",
+        "retweet_id":"",
+        "reply_to":[
+            {
+                "user_id":"16180874",
+                "username":"SneakerNews"
+            },
+            {
+                "user_id":"1128950437",
+                "username":"pyermoss"
+            }
+        ],
+        "retweet_date":""
+    },
+    {
+        "id":1202875466815885312,
+        "conversation_id":"1202875466815885312",
+        "created_at":1575622834000,
+        "date":"2019-12-06",
+        "time":"01:00:34",
+        "timezone":"PST",
+        "user_id":16180874,
+        "username":"sneakernews",
+        "name":"Sneaker News",
+        "place":"",
+        "tweet":"Complete list of all of the confirmed adidas Yeezys dropping this month  ",
         "mentions":[],
         "urls":[
             "https://snkrne.ws/2TCp0xn"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIFJKczWoAEgsUO.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":4,
-        "likes_count":49,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189312221962215424",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189303560791580684,
-        "conversation_id":"1189303560791580684",
-        "created_at":1572387039000,
-        "date":"2019-10-29",
-        "time":"15:10:39",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Nike latest Air Max 270 React with military camo patterns is available now  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2BVyIV2"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIFBSTLXUAIEi35.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":9,
-        "likes_count":88,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189303560791580684",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189297112208629760,
-        "conversation_id":"1189297112208629760",
-        "created_at":1572385502000,
-        "date":"2019-10-29",
-        "time":"14:45:02",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Who's excited for the Air Jordan 13 \"Flint\" to return next year?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/31UWiwz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIE7a5tWoAAvDZQ.png"
-        ],
-        "replies_count":16,
-        "retweets_count":63,
-        "likes_count":364,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189297112208629760",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189288994280017920,
-        "conversation_id":"1189288994280017920",
-        "created_at":1572383566000,
-        "date":"2019-10-29",
-        "time":"14:12:46",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Big news: 9 different adidas Yeezy Boost 350 v2s already confirmed for 2020 (Via @pyleaks)\n ",
-        "mentions":[
-            "pyleaks"
-        ],
-        "urls":[
-            "https://snkrne.ws/2PwrUF5"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIE0CXYWkAApOvW.jpg"
-        ],
-        "replies_count":69,
-        "retweets_count":68,
-        "likes_count":524,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189288994280017920",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"1090188813979303941",
-                "username":"pyleaks"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189279393073520641,
-        "conversation_id":"1189279393073520641",
-        "created_at":1572381277000,
-        "date":"2019-10-29",
-        "time":"13:34:37",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Sean Wotherspoon teases an upcoming ASICS collaboration dressed in corduroy\ud83d\udc40 ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/32SST1D"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIErThJW4AAdyiF.jpg"
-        ],
-        "replies_count":7,
-        "retweets_count":27,
-        "likes_count":179,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189279393073520641",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189272356545544192,
-        "conversation_id":"1189272356545544192",
-        "created_at":1572379600000,
-        "date":"2019-10-29",
-        "time":"13:06:40",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Pyer Moss and Reebok's Trail Fury collaboration is slated for a November 2nd release  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2WsNA6O"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIEk5-MWsAMI3f7.jpg"
-        ],
-        "replies_count":3,
-        "retweets_count":15,
-        "likes_count":118,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189272356545544192",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189267890576543744,
-        "conversation_id":"1189267890576543744",
-        "created_at":1572378535000,
-        "date":"2019-10-29",
-        "time":"12:48:55",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Sneaker News x @wilsonbasktball Miniature Basketball. Dropping Thursday, 10/31, completely free (just pay shipping, $8). Limited Quantities. Must subscribe to our newsletter for access:  ",
-        "mentions":[
-            "wilsonbasktball"
-        ],
-        "urls":[
-            "https://snkrne.ws/2tZTVJz"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIEg2BPW4AAor9G.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":6,
-        "likes_count":39,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189267890576543744",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            },
-            {
-                "user_id":"117220541",
-                "username":"WilsonBasktball"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189265031751491586,
-        "conversation_id":"1189265031751491586",
-        "created_at":1572377853000,
-        "date":"2019-10-29",
-        "time":"12:37:33",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"atmos NYC and Nike Sportswear are releasing an exclusive \"Pop the Street\" collection at ComplexCon this weekend  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2JyS2vg"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIEePk8WwAInaxc.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":7,
-        "likes_count":79,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189265031751491586",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189257149467254787,
-        "conversation_id":"1189257149467254787",
-        "created_at":1572375974000,
-        "date":"2019-10-29",
-        "time":"12:06:14",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The New Balance OMN1S \u201cHeat Wave\u201d is releasing on Halloween. Is this the best colorway yet?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2or7gv2"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIEXEzQXkAAoXMG.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":12,
-        "likes_count":87,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189257149467254787",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189250371010609155,
-        "conversation_id":"1189250371010609155",
-        "created_at":1572374358000,
-        "date":"2019-10-29",
-        "time":"11:39:18",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The adidas Yeezy 500 \"Soft Vision\" is dropping in full family sizes. Mark your calendars for an 11/2 release date  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qVmEAP"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIEQ6PCWoAAQK3e.jpg"
+            "https://pbs.twimg.com/media/ELF43JrXsAAhK0d.jpg"
         ],
         "replies_count":1,
         "retweets_count":17,
-        "likes_count":101,
+        "likes_count":134,
         "hashtags":[],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189250371010609155",
+        "link":"https://twitter.com/SneakerNews/status/1202875466815885312",
         "retweet":false,
         "quote_url":"",
         "video":0,
@@ -3071,708 +2758,36 @@
         "retweet_date":""
     },
     {
-        "id":1189240299165552640,
-        "conversation_id":"1189240299165552640",
-        "created_at":1572371956000,
-        "date":"2019-10-29",
-        "time":"10:59:16",
-        "timezone":"PDT",
+        "id":1202860482840936449,
+        "conversation_id":"1202860482840936449",
+        "created_at":1575619261000,
+        "date":"2019-12-06",
+        "time":"00:01:01",
+        "timezone":"PST",
         "user_id":16180874,
         "username":"sneakernews",
         "name":"Sneaker News",
         "place":"",
-        "tweet":"Official images: Kendrick Lamar x Nike React Element 55, releasing 11/5\n ",
+        "tweet":"Just released with global shipping: Nike Air Max 90 \"Bright Crimson\" #AD\n\nSNS  https://snkrne.ws/2PlMJBu\u00a0 \nAfew  https://snkrne.ws/2DRUNVr\u00a0\n43  https://snkrne.ws/2rX65F6\u00a0\nBSTN  https://snkrne.ws/2DRESGu\u00a0 \nOverkill  ",
         "mentions":[],
         "urls":[
-            "https://snkrne.ws/2MZ3nam"
+            "https://snkrne.ws/2PlMJBu",
+            "https://snkrne.ws/2DRUNVr",
+            "https://snkrne.ws/2rX65F6",
+            "https://snkrne.ws/2DRESGu",
+            "https://snkrne.ws/33RJDdN"
         ],
         "photos":[
-            "https://pbs.twimg.com/media/EIEHv94XkAALek0.jpg"
-        ],
-        "replies_count":2,
-        "retweets_count":98,
-        "likes_count":616,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189240299165552640",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189234357938085888,
-        "conversation_id":"1189234357938085888",
-        "created_at":1572370540000,
-        "date":"2019-10-29",
-        "time":"10:35:40",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Aim\u00e9 Leon Dore may have a New Balance 990v2 collaboration on the way\ud83d\udc40  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2ou5l9d"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIECWKpXYAAjk5T.jpg"
+            "https://pbs.twimg.com/media/ELFrO_gWwAARa6E.jpg"
         ],
         "replies_count":1,
-        "retweets_count":19,
-        "likes_count":152,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189234357938085888",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189226303460970497,
-        "conversation_id":"1189226303460970497",
-        "created_at":1572368620000,
-        "date":"2019-10-29",
-        "time":"10:03:40",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Converse adds all-over flame graphics to the All Star Pro BB. Would you hoop in these?  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/36pAmfE"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EID7BTkXkAAfwEG.jpg"
-        ],
-        "replies_count":4,
-        "retweets_count":10,
-        "likes_count":54,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189226303460970497",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189219473762463745,
-        "conversation_id":"1189219473762463745",
-        "created_at":1572366991000,
-        "date":"2019-10-29",
-        "time":"09:36:31",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Nike is releasing another regionally-exclusive pair of Air Force 1s for Shanghai  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2JuvLie"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EID0zxVWwAIs6xv.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":18,
-        "likes_count":169,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189219473762463745",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189211455096344576,
-        "conversation_id":"1189211455096344576",
-        "created_at":1572365080000,
-        "date":"2019-10-29",
-        "time":"09:04:40",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"NBA2K20's MyPLAYER Nation Challenge is now live for a chance to purchase the Nike LeBron 17 \"Bron 2K\"  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qUrVIU"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIDthAJX4AEnu7N.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":8,
-        "likes_count":64,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189211455096344576",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189198134750130177,
-        "conversation_id":"1189198134750130177",
-        "created_at":1572361904000,
-        "date":"2019-10-29",
-        "time":"08:11:44",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"UNDERCOVER's Nike Air Max 720 collaboration is finally due for a release on October 31st\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2pdWTeI"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIDhZrvW4AIhrcY.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":35,
-        "likes_count":271,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189198134750130177",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189157506049814528,
-        "conversation_id":"1189157506049814528",
-        "created_at":1572352217000,
-        "date":"2019-10-29",
-        "time":"05:30:17",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Jordan is bringing the Flyease innovation to lifestyle footwear. See the store list:\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/36eLFHt"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIC8cx0WoAAkt7V.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":4,
-        "likes_count":54,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189157506049814528",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189150047172214785,
-        "conversation_id":"1189150047172214785",
-        "created_at":1572350439000,
-        "date":"2019-10-29",
-        "time":"05:00:39",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Good news for retro runner fans - Tailwind IV \"Racer Blue\" drops this Friday\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2YRBasI"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIC1qnrW4AEvJ1h.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":9,
-        "likes_count":58,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189150047172214785",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189134938626514945,
-        "conversation_id":"1189134938626514945",
-        "created_at":1572346837000,
-        "date":"2019-10-29",
-        "time":"04:00:37",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Workwear themes arrive on the Nike Drop Type LX\n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/34cqfIS"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EICn7L0XUAAlnrh.jpg"
-        ],
-        "replies_count":2,
-        "retweets_count":11,
-        "likes_count":86,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189134938626514945",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189127338308579329,
-        "conversation_id":"1189127338308579329",
-        "created_at":1572345025000,
-        "date":"2019-10-29",
-        "time":"03:30:25",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike Air Max 270 Bowfin gets a camping overhaul\n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2MSXhrI"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIChAymXkAIjNZq.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":9,
-        "likes_count":102,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189127338308579329",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189119807330889729,
-        "conversation_id":"1189119807330889729",
-        "created_at":1572343229000,
-        "date":"2019-10-29",
-        "time":"03:00:29",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Wolf Grey and University Red can do no wrong on the Air Force 1\n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2olzvLA"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EICaKb9WoAEi7P0.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":9,
-        "likes_count":68,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189119807330889729",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189112164730265600,
-        "conversation_id":"1189112164730265600",
-        "created_at":1572341407000,
-        "date":"2019-10-29",
-        "time":"02:30:07",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"The Nike D/MS/X Flyknit N110 is back in a bright colorway \n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2qNaQ3q"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EICTNlWXkAA_8sr.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":5,
-        "likes_count":37,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189112164730265600",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189104679701143558,
-        "conversation_id":"1189104679701143558",
-        "created_at":1572339622000,
-        "date":"2019-10-29",
-        "time":"02:00:22",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"NEIGHBORHOOD's staple graphics find their way onto the adidas Ultra Boost 19\n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2q2M1ju"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EICMZ4JX4AAxpTd.jpg"
-        ],
-        "replies_count":1,
-        "retweets_count":4,
-        "likes_count":49,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189104679701143558",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189097051558174721,
-        "conversation_id":"1189097051558174721",
-        "created_at":1572337804000,
-        "date":"2019-10-29",
-        "time":"01:30:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Serena Williams' \"Queen\" Blazers live on with the latest Nike Kobe AD 360 FF \n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/32UUi7Y"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EICFd3MW4AALnQ9.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":16,
-        "likes_count":151,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189097051558174721",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189089509025157120,
-        "conversation_id":"1189089509025157120",
-        "created_at":1572336005000,
-        "date":"2019-10-29",
-        "time":"01:00:05",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"OBJ's Nike Air Max 720 gets a new colorway for 11/5\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PqaEBB"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIB-m1qWwAA9ZUM.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":8,
-        "likes_count":92,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189089509025157120",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189081954500710400,
-        "conversation_id":"1189081954500710400",
-        "created_at":1572334204000,
-        "date":"2019-10-29",
-        "time":"00:30:04",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"What comic book character does this Air Force 1 remind you of?\n\n ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/2PpTW5l"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIB3vGpX0AsivFu.jpg"
-        ],
-        "replies_count":33,
-        "retweets_count":39,
-        "likes_count":242,
-        "hashtags":[],
-        "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189081954500710400",
-        "retweet":false,
-        "quote_url":"",
-        "video":0,
-        "near":"",
-        "geo":"",
-        "source":"",
-        "user_rt_id":"",
-        "user_rt":"",
-        "retweet_id":"",
-        "reply_to":[
-            {
-                "user_id":"16180874",
-                "username":"SneakerNews"
-            }
-        ],
-        "retweet_date":""
-    },
-    {
-        "id":1189074647091990528,
-        "conversation_id":"1189074647091990528",
-        "created_at":1572332462000,
-        "date":"2019-10-29",
-        "time":"00:01:02",
-        "timezone":"PDT",
-        "user_id":16180874,
-        "username":"sneakernews",
-        "name":"Sneaker News",
-        "place":"",
-        "tweet":"Just released with global shipping: Nike LeBron 7 \"Red Carpet\" #AD\n\nSNS  https://snkrne.ws/34elz5z\u00a0\nAfew  https://snkrne.ws/2BSaM4U\u00a0\nAsphalt  https://snkrne.ws/2PmObFz\u00a0 \n43  https://snkrne.ws/32W1KPY\u00a0 \nBSTN  ",
-        "mentions":[],
-        "urls":[
-            "https://snkrne.ws/34elz5z",
-            "https://snkrne.ws/2BSaM4U",
-            "https://snkrne.ws/2PmObFz",
-            "https://snkrne.ws/32W1KPY",
-            "https://snkrne.ws/32W1May"
-        ],
-        "photos":[
-            "https://pbs.twimg.com/media/EIBxFvmXYAEueGt.jpg"
-        ],
-        "replies_count":0,
-        "retweets_count":4,
-        "likes_count":58,
+        "retweets_count":3,
+        "likes_count":28,
         "hashtags":[
             "#ad"
         ],
         "cashtags":[],
-        "link":"https://twitter.com/SneakerNews/status/1189074647091990528",
+        "link":"https://twitter.com/SneakerNews/status/1202860482840936449",
         "retweet":false,
         "quote_url":"",
         "video":0,

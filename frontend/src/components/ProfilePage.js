@@ -1,14 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  Nav,
-  NavItem,
-  NavLink,
   Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
   UncontrolledAlert,
   ListGroup,
   ListGroupItem
@@ -16,6 +8,7 @@ import {
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
+import emitter from "../util/events";
 
 async function getUserInfo() {
   return axios
@@ -59,6 +52,10 @@ export default class ProfilePage extends React.Component {
   }
 
   componentDidMount() {
+    if (localStorage.getItem("cool-jwt")) {
+      emitter.emit("loginStatus", true);
+    }
+
     this.setState({ loading: true });
 
     getUserInfo().then(data => {
@@ -86,18 +83,16 @@ export default class ProfilePage extends React.Component {
   }
   deleteItem(e) {
     e.preventDefault();
-
-    let filtered = this.state.brands.filter(brand => {
+    let filter = this.state.brands.filter(value => {
       return (
-        brand !==
+        value !==
         e.target.parentNode.innerText.substring(
           0,
           e.target.parentNode.innerText.indexOf("Delete") - 1
         )
       );
     });
-
-    this.setState({ brands: filtered });
+    this.setState({ brands: filter });
   }
 
   sendPut(e) {
@@ -117,14 +112,18 @@ export default class ProfilePage extends React.Component {
 
   deleteAccount(e) {
     e.preventDefault();
+    console.log(this.state.email);
     axios
       .delete("https://snkr-news-api.herokuapp.com/users/delete", {
-        email: this.state.email
+        data: {
+          email: this.state.email
+        }
       })
       .then(res => {
         if (res.status === 200) {
           this.setState({ name: "", email: "", brands: [], redirect: true });
           localStorage.removeItem("cool-jwt");
+          emitter.emit("loginStatus", false);
         }
       });
   }
@@ -220,26 +219,6 @@ export default class ProfilePage extends React.Component {
             Submit
           </Button>
         </Row>
-        {/* <Row>
-          <Form>
-            <FormGroup>
-              <Label for="exampleEmail">Email: </Label>
-              <span>{this.state.email}</span>
-            </FormGroup>
-            <a href="resetpwd">Click here to reset password</a> */}
-        {/* <FormGroup>
-              <Label for="examplePassword">Password</Label>
-              <Input
-                type="password"
-                name="password"
-                id="examplePassword"
-                placeholder="password placeholder"
-              />
-            </FormGroup> */}
-        {/* </Form>
-        </Row> */}
-
-        {/* </div> */}
       </div>
     );
   }
